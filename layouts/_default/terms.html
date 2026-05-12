@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="blog-hero">
+  <div class="container">
+    <span class="overline">Explora por tema</span>
+    <h1>Temas del <span class="g">Blog</span></h1>
+    <p class="lede">Encuentra artículos sobre diseño web, IA, chatbots y más.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="tags-grid">
+      {{ range .Pages }}
+      <a href="{{ .Permalink }}" class="tag-card reveal">
+        <span class="tag-name">{{ .Title }}</span>
+        <span class="tag-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}artículo{{ else }}artículos{{ end }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

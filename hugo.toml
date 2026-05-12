@@ -1,0 +1,37 @@
+baseURL = "https://blog.vonoaweb.com/"
+languageCode = "es-MX"
+title = "Blog VonoaWeb"
+theme = ""
+paginate = 9
+summaryLength = 40
+enableRobotsTXT = true
+
+[params]
+  description = "Artículos sobre diseño web, IA y automatización para PYMES en Guadalajara"
+  author = "VonoaWeb"
+  whatsapp = "523312345678"
+  siteUrl = "https://vonoaweb.com"
+  # Google Tag Manager — mismo que vonoaweb.com
+  gtmId = "GTM-WGD4B5F5"
+
+[params.og]
+  image = "/images/brand/og-default.webp"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.8
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

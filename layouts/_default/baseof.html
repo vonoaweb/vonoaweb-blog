@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}Blog | VonoaWeb — Diseño Web + IA en Guadalajara{{ else }}{{ .Title }} | Blog VonoaWeb{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta name="keywords" content="{{ delimit .Params.tags ", " | default "diseño web Guadalajara, IA para PYMES, chatbot WhatsApp, automatización" }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="Blog VonoaWeb">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{ with .Params.image }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
+
+  {{ if .IsPage }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ .Title }}",
+    "description": "{{ .Description }}",
+    "datePublished": "{{ .Date.Format "2006-01-02" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+    "author": {
+      "@type": "Organization",
+      "name": "VonoaWeb",
+      "url": "https://vonoaweb.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "VonoaWeb",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://vonoaweb.com/assets/vona-icon.webp"
+      }
+    },
+    "mainEntityOfPage": "{{ .Permalink }}",
+    "image": "{{ with .Params.image }}{{ . | absURL }}{{ end }}"
+  }
+  </script>
+  {{ end }}
+
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Blog VonoaWeb",
+    "description": "{{ .Site.Params.description }}",
+    "url": "{{ .Site.BaseURL }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "VonoaWeb",
+      "url": "https://vonoaweb.com"
+    }
+  }
+  </script>
+  {{ end }}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"></noscript>
+  <link rel="icon" type="image/webp" href="https://vonoaweb.com/assets/vona-icon.webp">
+  <link rel="apple-touch-icon" href="https://vonoaweb.com/assets/vona-icon.webp">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/main.js" defer></script>
+
+  <!-- Google Tag Manager -->
+  {{ with .Site.Params.gtmId }}
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','{{ . }}');</script>
+  {{ end }}
+</head>
+<body>
+  {{ with .Site.Params.gtmId }}
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ . }}"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  {{ end }}
+
+  {{ partial "header.html" . }}
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+  {{ partial "whatsapp-fab.html" . }}
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!-- ======= NAV (idéntico a vonoaweb.com) ======= -->
+<header class="site-nav">
+  <nav class="nav container">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 210 210" width="26" height="26" aria-hidden="true">
+        <defs>
+          <linearGradient id="lg-brand" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#2EE9B9"/>
+            <stop offset="1" stop-color="#1CA0F4"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#lg-brand)" fill-rule="evenodd"
+          d="M 0 18 L 39 91 L 49 72 L 9 0 L 0 18 Z M 161 72 L 171 91 L 210 18 L 201 0 L 161 72 Z M 63 77 L 72 84 C 89 68 121 68 140 84 L 147 77 C 135 65 121 61 105 61 C 89 61 75 65 63 77 Z M 105 173 L 65 100 L 56 119 L 105 210 L 154 119 L 145 100 L 105 173 Z"/>
+      </svg>
+      <span class="wm">VONOA<em>WEB</em></span>
+      <span class="blog-badge">Blog</span>
+    </a>
+    <div class="links">
+      <a href="/" class="{{ if .IsHome }}active{{ end }}">Artículos</a>
+      <a href="/tags/">Temas</a>
+      <a href="https://vonoaweb.com" target="_blank" rel="noopener">Inicio</a>
+      <a href="https://vonoaweb.com/servicios.html" target="_blank" rel="noopener">Servicios</a>
+      <a href="https://vonoaweb.com/precios.html" target="_blank" rel="noopener">Precios</a>
+      <a href="https://vonoaweb.com/contacto.html" target="_blank" rel="noopener">Contacto</a>
+    </div>
+    <a class="cta-sm" href="https://vonoaweb.com/contacto.html" target="_blank" rel="noopener">Cotiza gratis →</a>
+    <button class="burger" aria-label="Menú" id="burger"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- ======= MOBILE MENU ======= -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="/">Artículos</a>
+  <a href="/tags/">Temas</a>
+  <a href="https://vonoaweb.com" target="_blank" rel="noopener">Inicio</a>
+  <a href="https://vonoaweb.com/servicios.html" target="_blank" rel="noopener">Servicios</a>
+  <a href="https://vonoaweb.com/precios.html" target="_blank" rel="noopener">Precios</a>
+  <a href="https://vonoaweb.com/contacto.html" target="_blank" rel="noopener">Contacto</a>
+  <a class="cta-mobile" href="https://vonoaweb.com/contacto.html" target="_blank" rel="noopener">Cotiza gratis →</a>
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('burger'),m=document.getElementById('mobile-menu');
+  b.addEventListener('click',function(){
+    var open=m.classList.toggle('open');
+    b.classList.toggle('open',open);
+    b.setAttribute('aria-expanded',open);
+  });
+})();
+</script>

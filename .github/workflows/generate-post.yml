@@ -1,0 +1,39 @@
+name: Auto-generate Blog Post
+
+on:
+  schedule:
+    # Cada lunes a las 9am CST (15:00 UTC)
+    - cron: '0 15 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: ./scripts
+        run: npm install
+
+      - name: Generate post
+        working-directory: ./scripts
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: node generate-post.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "VonoaWeb Bot"
+          git config user.email "bot@vonoaweb.com"
+          git add content/posts/
+          git diff --staged --quiet || (git commit -m "Nuevo artículo de blog [auto]" && git push)

@@ -1,0 +1,44 @@
+{{ define "main" }}
+<section class="blog-hero">
+  <div class="container">
+    <span class="overline">{{ if .IsHome }}Blog VonoaWeb{{ else }}{{ .Title }}{{ end }}</span>
+    <h1>{{ if .IsHome }}Diseño Web, IA y Automatización<br><span class="g">para PYMES en Guadalajara</span>{{ else }}{{ .Title }}{{ end }}</h1>
+    <p class="lede">{{ if .IsHome }}Artículos, guías y casos reales para hacer crecer tu negocio con tecnología.{{ else }}{{ .Description }}{{ end }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="posts-grid">
+      {{ $pages := .Pages }}
+      {{ if .IsHome }}{{ $pages = where site.RegularPages "Section" "posts" }}{{ end }}
+      {{ range $pages.ByDate.Reverse }}
+      {{ if not .Params.draft }}
+      <article class="post-card reveal">
+        <a href="{{ .Permalink }}">
+          {{ with .Params.image }}
+          <div class="post-card-img">
+            <img src="{{ . }}" alt="{{ $.Params.imageAlt | default $.Title }}" loading="lazy" width="600" height="340">
+          </div>
+          {{ end }}
+          <div class="post-card-body">
+            <div class="post-card-meta">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+              {{ range first 2 .Params.tags }}
+              <span class="chip-tag">{{ . }}</span>
+              {{ end }}
+            </div>
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Summary }}</p>
+            <span class="read-more">Leer artículo →</span>
+          </div>
+        </a>
+      </article>
+      {{ end }}
+      {{ end }}
+    </div>
+
+    {{ template "_internal/pagination.html" . }}
+  </div>
+</section>
+{{ end }}
