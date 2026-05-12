@@ -1,7 +1,6 @@
 baseURL = "https://blog.vonoaweb.com/"
-languageCode = "es-MX"
+defaultContentLanguage = "es"
 title = "Blog VonoaWeb"
-theme = ""
 paginate = 9
 summaryLength = 40
 enableRobotsTXT = true
@@ -35,3 +34,8 @@ enableRobotsTXT = true
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[languages]
+  [languages.es]
+    locale = "es_MX"
+    weight = 1
