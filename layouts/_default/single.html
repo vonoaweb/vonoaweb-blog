@@ -26,7 +26,7 @@
 
   {{ with .Params.image }}
   <figure class="post-hero-img container-wide">
-    <img src="{{ . }}" alt="{{ $.Params.imageAlt | default $.Title }}" loading="eager" width="1200" height="630">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.imageAlt | default $.Title }}" loading="eager" width="1200" height="630">
     {{ with $.Params.imageCredit }}<figcaption>Foto: {{ . }}</figcaption>{{ end }}
   </figure>
   {{ end }}

@@ -18,7 +18,7 @@
         <a href="{{ .Permalink }}">
           {{ with .Params.image }}
           <div class="post-card-img">
-            <img src="{{ . }}" alt="{{ $.Params.imageAlt | default $.Title }}" loading="lazy" width="600" height="340">
+            <img src="{{ . | relURL }}" alt="{{ $.Params.imageAlt | default $.Title }}" loading="lazy" width="600" height="340">
           </div>
           {{ end }}
           <div class="post-card-body">
