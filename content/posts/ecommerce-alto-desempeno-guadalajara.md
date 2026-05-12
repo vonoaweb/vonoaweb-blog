@@ -5,7 +5,7 @@ slug: "ecommerce-alto-desempeno-guadalajara"
 description: "Descubre cuándo es momento de migrar de una tienda básica a un e-commerce escalable. Headless commerce, Shopify avanzado y casos reales de negocios en Jalisco."
 tags: ["e-commerce", "Shopify", "headless commerce", "Guadalajara", "tienda online", "escalabilidad"]
 author: "VonoaWeb"
-image: "/images/blog/ecommerce-alto-desempeno.jpg"
+image: "images/blog/ecommerce-alto-desempeno.jpg"
 imageAlt: "Persona realizando una compra en línea con laptop y tarjeta de crédito, representando e-commerce de alto desempeño"
 imageCredit: "rupixen / Unsplash"
 draft: false

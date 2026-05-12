@@ -6,7 +6,7 @@ slug: "chatbot-whatsapp-restaurantes-zapopan"
 description: "Descubre cómo un chatbot de WhatsApp puede automatizar reservas y pedidos en tu restaurante de Zapopan. Caso real con resultados."
 tags: ["chatbot", "WhatsApp", "restaurantes", "Zapopan"]
 author: "VonoaWeb"
-image: "/images/blog/chatbot-restaurante.webp"
+image: "images/blog/chatbot-restaurante.webp"
 imageAlt: "Chatbot de IA atendiendo reservas en restaurante de Zapopan por WhatsApp Business"
 imageCredit: "VonoaWeb"
 ---

@@ -5,7 +5,7 @@ slug: "diseno-producto-vs-diseno-web-estandar"
 description: "Descubre la diferencia entre un sitio que se ve bien y uno que convierte. Cómo el diseño de producto digital basado en objetivos de negocio supera al diseño web tradicional en Guadalajara."
 tags: ["diseño de producto", "UX", "diseño web", "conversiones", "Guadalajara", "PYMES"]
 author: "VonoaWeb"
-image: "/images/blog/diseno-producto-wireframe.jpg"
+image: "images/blog/diseno-producto-wireframe.jpg"
 imageAlt: "Diseñador UX creando wireframes y bocetos de producto digital sobre papel"
 imageCredit: "Amélie Mourichon / Unsplash"
 draft: false

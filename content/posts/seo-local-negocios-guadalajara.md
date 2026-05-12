@@ -6,7 +6,7 @@ slug: "seo-local-negocios-guadalajara"
 description: "Aprende a posicionar tu negocio en Google Maps y búsquedas locales en Guadalajara. Guía paso a paso con ejemplos reales de PYMES en Jalisco."
 tags: ["SEO", "Guadalajara", "marketing digital", "Google"]
 author: "VonoaWeb"
-image: "/images/blog/seo-guadalajara.webp"
+image: "images/blog/seo-guadalajara.webp"
 imageAlt: "Resultados de Google Maps mostrando negocios locales en Guadalajara Jalisco"
 imageCredit: "VonoaWeb"
 ---

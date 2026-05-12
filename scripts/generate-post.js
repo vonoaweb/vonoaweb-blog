@@ -21,11 +21,11 @@ const topics = [
 ];
 
 const brandImages = [
-  "/images/brand/robot-hero-1.webp",
-  "/images/brand/robot-hero-2.webp",
-  "/images/brand/robot-laptop.webp",
-  "/images/brand/robot-phone.webp",
-  "/images/brand/robot-soporte.webp",
+  "images/brand/robot-hero-1.webp",
+  "images/brand/robot-hero-2.webp",
+  "images/brand/robot-laptop.webp",
+  "images/brand/robot-phone.webp",
+  "images/brand/robot-soporte.webp",
 ];
 
 function getUsedSlugs() {

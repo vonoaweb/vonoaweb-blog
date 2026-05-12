@@ -5,7 +5,7 @@ slug: "core-web-vitals-guadalajara-2026"
 description: "Descubre cómo pasar de una calificación roja a verde en Google PageSpeed. Datos reales de PYMES en Guadalajara y por qué cada segundo de carga cuenta en tus ventas."
 tags: ["Core Web Vitals", "PageSpeed", "SEO técnico", "Guadalajara", "PYMES", "rendimiento web"]
 author: "VonoaWeb"
-image: "/images/blog/core-web-vitals-analytics.jpg"
+image: "images/blog/core-web-vitals-analytics.jpg"
 imageAlt: "Dashboard de analítica web con visualización de datos y métricas de rendimiento para Core Web Vitals"
 imageCredit: "Luke Chesser / Unsplash"
 draft: false

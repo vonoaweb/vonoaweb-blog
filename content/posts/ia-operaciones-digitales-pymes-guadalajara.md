@@ -5,7 +5,7 @@ slug: "ia-operaciones-digitales-pymes-guadalajara"
 description: "Guía práctica para integrar inteligencia artificial en la atención al cliente, inventarios y procesos de tu negocio en Guadalajara. Casos reales y costos 2026."
 tags: ["inteligencia artificial", "automatización", "PYMES", "Guadalajara", "operaciones", "chatbot"]
 author: "VonoaWeb"
-image: "/images/blog/ia-operaciones-pymes.jpg"
+image: "images/blog/ia-operaciones-pymes.jpg"
 imageAlt: "Placa de circuito con ilustración de cerebro representando inteligencia artificial aplicada a operaciones de negocio"
 imageCredit: "Steve A Johnson / Unsplash"
 draft: false
