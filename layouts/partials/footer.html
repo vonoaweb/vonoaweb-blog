@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
-      <a href="/" class="brand">
+      <a href="{{ "" | relURL }}" class="brand">
         <svg viewBox="0 0 210 210" width="22" height="22" aria-hidden="true">
           <defs>
             <linearGradient id="lg-foot" x1="0" y1="0" x2="1" y2="1">
@@ -18,10 +18,10 @@
     </div>
     <div class="footer-col">
       <h4>Blog</h4>
-      <a href="/">Artículos</a>
-      <a href="/tags/">Temas</a>
-      <a href="/tags/chatbot/">Chatbots</a>
-      <a href="/tags/seo/">SEO</a>
+      <a href="{{ "" | relURL }}">Artículos</a>
+      <a href="{{ "tags/" | relURL }}">Temas</a>
+      <a href="{{ "tags/chatbot/" | relURL }}">Chatbots</a>
+      <a href="{{ "tags/seo/" | relURL }}">SEO</a>
     </div>
     <div class="footer-col">
       <h4>VonoaWeb</h4>

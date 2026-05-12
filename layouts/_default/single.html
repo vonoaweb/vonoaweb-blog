@@ -3,7 +3,7 @@
 
   <!-- Breadcrumb SEO -->
   <nav class="breadcrumb container" aria-label="Breadcrumb">
-    <a href="/">Blog</a>
+    <a href="{{ "" | relURL }}">Blog</a>
     <span>/</span>
     {{ with (index .Params.tags 0) }}<a href="/tags/{{ . | urlize }}/">{{ . }}</a><span>/</span>{{ end }}
     <span class="current">{{ .Title | truncate 50 }}</span>
