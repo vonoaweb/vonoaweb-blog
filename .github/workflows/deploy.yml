@@ -26,10 +26,19 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Detect base URL
+        id: baseurl
+        run: |
+          CNAME_FILE="static/CNAME"
+          if [ -f "$CNAME_FILE" ] && DOMAIN=$(cat "$CNAME_FILE" | tr -d '[:space:]') && [ -n "$DOMAIN" ]; then
+            echo "url=https://${DOMAIN}/" >> "$GITHUB_OUTPUT"
+          else
+            REPO_NAME="${GITHUB_REPOSITORY#*/}"
+            echo "url=https://${GITHUB_REPOSITORY_OWNER}.github.io/${REPO_NAME}/" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Build
-        env:
-          HUGO_BASEURL: ${{ vars.CUSTOM_DOMAIN && format('https://{0}/', vars.CUSTOM_DOMAIN) || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) }}
-        run: hugo --minify --baseURL "$HUGO_BASEURL"
+        run: hugo --minify --baseURL "${{ steps.baseurl.outputs.url }}"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
