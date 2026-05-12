@@ -6,7 +6,7 @@
   <title>{{ if .IsHome }}Blog | VonoaWeb — Diseño Web + IA en Guadalajara{{ else }}{{ .Title }} | Blog VonoaWeb{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
-  <meta name="keywords" content="{{ delimit .Params.tags ", " | default "diseño web Guadalajara, IA para PYMES, chatbot WhatsApp, automatización" }}">
+  <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ else }}diseño web Guadalajara, IA para PYMES, chatbot WhatsApp, automatización{{ end }}">
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ .Title }}">
