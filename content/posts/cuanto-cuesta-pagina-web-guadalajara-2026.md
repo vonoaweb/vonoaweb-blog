@@ -6,9 +6,9 @@ slug: "cuanto-cuesta-pagina-web-guadalajara-2026"
 description: "Guía de precios actualizada para diseño web en Guadalajara. Compara costos de freelancers, agencias y plataformas DIY para PYMES en Jalisco."
 tags: ["diseño web", "precios", "Guadalajara", "PYMES"]
 author: "VonoaWeb"
-image: "images/blog/diseno-web-guadalajara.webp"
-imageAlt: "Diseñador web trabajando en proyecto para PYME en Guadalajara"
-imageCredit: "VonoaWeb"
+image: "images/blog/diseno-web-guadalajara.jpg"
+imageAlt: "Diseñador web trabajando en código y diseño responsive en monitor de escritorio"
+imageCredit: "Fotis Fotopoulos / Unsplash"
 ---
 
 ## La pregunta del millón (o de los $5,999)
