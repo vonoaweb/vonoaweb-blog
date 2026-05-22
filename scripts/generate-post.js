@@ -1,6 +1,11 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+// ── Paths ────────────────────────────────────────────
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // ── APIs ──────────────────────────────────────────────
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -8,7 +13,7 @@ const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 const UNSPLASH_KEY = process.env.UNSPLASH_ACCESS_KEY;
 const PEXELS_KEY = process.env.PEXELS_API_KEY;
 
-const CONTENT_DIR = path.resolve('content/posts');
+const CONTENT_DIR = path.resolve(__dirname, '..', 'content', 'posts');
 
 // ── Temas (expandidos para +1 año de contenido) ──────
 const topics = [
