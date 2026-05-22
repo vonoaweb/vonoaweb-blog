@@ -33,8 +33,21 @@ jobs:
         run: node generate-post.js
 
       - name: Commit and push
+        id: commit
         run: |
           git config user.name "VonoaWeb Bot"
           git config user.email "bot@vonoaweb.com"
           git add content/posts/
-          git diff --staged --quiet || (git commit -m "Nuevo artículo de blog [auto]" && git push)
+          if git diff --staged --quiet; then
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Nuevo artículo de blog [auto]"
+            git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger deploy
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml
