@@ -2,9 +2,9 @@ name: Auto-generate Blog Post
 
 on:
   schedule:
-    # Cada lunes a las 9am CST (15:00 UTC)
-    - cron: '0 15 * * 1'
-  workflow_dispatch:
+    # Lunes y jueves a las 9am CST (15:00 UTC)
+    - cron: '0 15 * * 1,4'
+  workflow_dispatch:  # También se puede disparar manualmente
 
 permissions:
   contents: write
@@ -27,7 +27,8 @@ jobs:
       - name: Generate post
         working-directory: ./scripts
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: node generate-post.js
 

@@ -1,12 +1,11 @@
 {
   "name": "vonoaweb-blog-scripts",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "generate": "node generate-post.js"
   },
   "dependencies": {
-    "gray-matter": "^4.0.3",
-    "openai": "^4.52.0"
+    "@google/generative-ai": "^0.21.0"
   }
 }
