@@ -153,7 +153,7 @@ async function getImage(query) {
   if (!img) {
     img = {
       url: brandImages[Math.floor(Math.random() * brandImages.length)],
-      credit: 'VonoaWeb'
+      credit: 'Unsplash'
     };
   }
   return img;

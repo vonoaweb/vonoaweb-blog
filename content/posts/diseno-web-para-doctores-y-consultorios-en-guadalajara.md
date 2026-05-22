@@ -8,7 +8,7 @@ tags: ["diseño web", "salud", "Guadalajara", "consultorios"]
 author: "VonoaWeb"
 image: "images/blog/diseno-web-guadalajara.jpg"
 imageAlt: "Diseño web profesional para consultorios médicos en Guadalajara"
-imageCredit: "VonoaWeb"
+imageCredit: "Unsplash"
 ---
 
 El sector salud en Guadalajara es dinámico y competitivo. Desde consultorios médicos especializados en Providencia hasta clínicas dentales en Zapopan Centro, la presencia digital dejó de ser un lujo para convertirse en una necesidad. Para ti, médico o dueño de un consultorio en Jalisco, un sitio web profesional es la puerta de entrada a nuevos pacientes y la consolidación de tu reputación.
