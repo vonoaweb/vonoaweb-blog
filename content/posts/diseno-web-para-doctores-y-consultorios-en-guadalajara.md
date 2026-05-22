@@ -3,11 +3,11 @@ title: "Diseño web para doctores y consultorios en Guadalajara"
 date: 2026-05-22
 draft: false
 slug: "diseno-web-para-doctores-y-consultorios-en-guadalajara"
-description: "Diseño"
+description: "Diseño web profesional para doctores y consultorios en Guadalajara. Atrae más pacientes con una página moderna y optimizada para SEO local."
 tags: ["diseño web", "salud", "Guadalajara", "consultorios"]
 author: "VonoaWeb"
-image: "images/brand/robot-hero-1.webp"
-imageAlt: "Diseño"
+image: "images/blog/diseno-web-guadalajara.jpg"
+imageAlt: "Diseño web profesional para consultorios médicos en Guadalajara"
 imageCredit: "VonoaWeb"
 ---
 

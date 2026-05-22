@@ -65,11 +65,13 @@ const topics = [
 ];
 
 const brandImages = [
-  "images/brand/robot-hero-1.webp",
-  "images/brand/robot-hero-2.webp",
-  "images/brand/robot-laptop.webp",
-  "images/brand/robot-phone.webp",
-  "images/brand/robot-soporte.webp",
+  "images/blog/diseno-web-guadalajara.jpg",
+  "images/blog/chatbot-restaurante.jpg",
+  "images/blog/seo-guadalajara.jpg",
+  "images/blog/ia-operaciones-pymes.jpg",
+  "images/blog/ecommerce-alto-desempeno.jpg",
+  "images/blog/core-web-vitals-analytics.jpg",
+  "images/blog/diseno-producto-wireframe.jpg",
 ];
 
 // ── Helpers ──────────────────────────────────────────
@@ -196,21 +198,37 @@ REGLAS ESTRICTAS:
 
 async function generateAltText(title) {
   const prompt = `Basado en este título de artículo: "${title}"
-Genera UN SOLO alt text de máximo 125 caracteres para una imagen de blog.
-Debe ser descriptivo, incluir "Guadalajara" o "Zapopan" si aplica, y ser natural.
-NO incluyas comillas. Solo devuelve el texto, nada más.`;
+Genera UN SOLO alt text descriptivo para una imagen de blog.
+REGLAS:
+- Mínimo 40 caracteres, máximo 125 caracteres
+- Debe ser una frase descriptiva completa
+- Incluir "Guadalajara" o "Zapopan" si aplica al tema
+- NO uses comillas
+- Devuelve SOLO el texto, sin explicaciones ni prefijos
+Ejemplo: "Consultorio médico moderno con diseño web profesional en Guadalajara"`;
 
-  return (await geminiGenerate(prompt, 80)).replace(/"/g, '');
+  const result = (await geminiGenerate(prompt, 100)).replace(/"/g, '');
+  // Fallback si la respuesta es muy corta
+  if (result.length < 30) return `${title} - VonoaWeb Guadalajara`;
+  return result;
 }
 
 async function generateDescription(title, content) {
-  const prompt = `Genera una meta description SEO de máximo 155 caracteres para este artículo.
+  const prompt = `Genera una meta description SEO para este artículo de blog.
 Título: "${title}"
-Primeras líneas: "${content.substring(0, 300)}"
-Debe incluir la ubicación (Guadalajara/Zapopan) si aplica y un call to action sutil.
-Solo devuelve el texto, sin comillas.`;
+Primeras líneas: "${content.substring(0, 500)}"
+REGLAS:
+- Mínimo 120 caracteres, máximo 155 caracteres
+- Incluir la ubicación (Guadalajara/Zapopan) si aplica
+- Incluir un call to action sutil al final
+- NO uses comillas
+- Devuelve SOLO el texto de la meta description, nada más
+Ejemplo: "Descubre cómo el SEO local puede ayudar a tu negocio en Guadalajara a aparecer en Google. Guía completa con estrategias probadas."`;
 
-  return (await geminiGenerate(prompt, 60)).replace(/"/g, '');
+  const result = (await geminiGenerate(prompt, 80)).replace(/"/g, '');
+  // Fallback si la respuesta es muy corta
+  if (result.length < 50) return `${title}. Guía completa para PYMES en Guadalajara por VonoaWeb.`;
+  return result;
 }
 
 // ── Main ─────────────────────────────────────────────
