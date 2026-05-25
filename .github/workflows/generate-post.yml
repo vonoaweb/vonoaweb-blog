@@ -2,8 +2,8 @@ name: Auto-generate Blog Post
 
 on:
   schedule:
-    # Lunes y jueves a las 9am CST (15:00 UTC)
-    - cron: '0 15 * * 1,4'
+    # Lunes, miércoles y viernes a las 9am CST (15:00 UTC)
+    - cron: '0 15 * * 1,3,5'
   workflow_dispatch:  # También se puede disparar manualmente
 
 permissions:
