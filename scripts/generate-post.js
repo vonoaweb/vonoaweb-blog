@@ -62,6 +62,36 @@ const topics = [
   { topic: "Certificado SSL: qué es y por qué tu página web lo necesita", tags: ["seguridad web", "SSL", "diseño web", "tutorial"], imgQuery: "website security lock https" },
   { topic: "Velocidad web: por qué tu página lenta te está costando clientes", tags: ["rendimiento web", "SEO", "PageSpeed", "PYMES"], imgQuery: "speed performance loading fast" },
   { topic: "Redes sociales vs página web: qué necesita tu negocio primero", tags: ["redes sociales", "diseño web", "PYMES", "Guadalajara"], imgQuery: "social media vs website" },
+
+  // --- Industrias locales (alta intención de compra) ---
+  { topic: "Diseño web para inmobiliarias y agentes de bienes raíces en Guadalajara", tags: ["diseño web", "inmobiliarias", "Guadalajara", "PYMES"], imgQuery: "real estate agent modern office" },
+  { topic: "Páginas web para contadores y despachos contables en Zapopan", tags: ["diseño web", "contadores", "Zapopan", "servicios profesionales"], imgQuery: "accountant office desk calculator" },
+  { topic: "Diseño web para clínicas dentales en Guadalajara", tags: ["diseño web", "salud", "dental", "Guadalajara"], imgQuery: "dental clinic modern interior" },
+  { topic: "Diseño web para constructoras y arquitectos en Jalisco", tags: ["diseño web", "construcción", "arquitectura", "Jalisco"], imgQuery: "architecture construction modern building" },
+  { topic: "Páginas web para escuelas y colegios privados en Guadalajara", tags: ["diseño web", "educación", "Guadalajara", "PYMES"], imgQuery: "private school classroom modern" },
+  { topic: "Diseño web para veterinarias en Zapopan", tags: ["diseño web", "veterinaria", "Zapopan", "PYMES"], imgQuery: "veterinary clinic pet care" },
+  { topic: "Diseño web para notarías en Guadalajara", tags: ["diseño web", "notaría", "servicios profesionales", "Guadalajara"], imgQuery: "notary legal documents office" },
+
+  // --- IA & Automatización avanzada ---
+  { topic: "Cómo automatizar el agendamiento de citas en tu negocio sin contratar más personal", tags: ["automatización", "citas", "PYMES", "Guadalajara"], imgQuery: "calendar appointment booking app" },
+  { topic: "Agentes de IA para PYMES: qué son y cómo te ahorran dinero en 2026", tags: ["IA", "agentes", "PYMES", "automatización"], imgQuery: "ai robot assistant technology" },
+  { topic: "Cómo automatizar el seguimiento a clientes con IA y WhatsApp", tags: ["automatización", "WhatsApp", "IA", "ventas"], imgQuery: "whatsapp crm customer service" },
+  { topic: "Cómo conectar tu página web con WhatsApp y un CRM automáticamente", tags: ["automatización", "CRM", "WhatsApp", "integración"], imgQuery: "software integration dashboard" },
+  { topic: "IA para responder reseñas de Google automáticamente", tags: ["IA", "reseñas", "Google", "reputación online"], imgQuery: "online review rating stars" },
+
+  // --- SEO local de alta intención ---
+  { topic: "Cómo aparecer en las búsquedas 'cerca de mí' en Guadalajara", tags: ["SEO", "búsqueda local", "Guadalajara", "Google"], imgQuery: "smartphone map location search" },
+  { topic: "Por qué tu competencia aparece en Google y tú no", tags: ["SEO", "Google", "PYMES", "marketing digital"], imgQuery: "google search results ranking" },
+
+  // --- Conversión / decisión de compra ---
+  { topic: "Cuánto cuesta una tienda en línea en Guadalajara en 2026", tags: ["e-commerce", "precios", "Guadalajara", "PYMES"], imgQuery: "online store shopping cart" },
+  { topic: "Agencia de diseño web vs freelancer vs hacerlo tú mismo: qué te conviene", tags: ["diseño web", "PYMES", "comparativa", "Guadalajara"], imgQuery: "team meeting web design agency" },
+  { topic: "Señales de que tu página web ya está obsoleta y te cuesta ventas", tags: ["diseño web", "rediseño", "UX", "PYMES"], imgQuery: "outdated old website laptop" },
+  { topic: "Rediseño web: cuándo vale la pena renovar tu sitio", tags: ["diseño web", "rediseño", "PYMES", "Guadalajara"], imgQuery: "website redesign before after" },
+
+  // --- Estacionales (publicar en su temporada) ---
+  { topic: "Cómo preparar tu tienda en línea para El Buen Fin", tags: ["e-commerce", "Buen Fin", "ventas", "México"], imgQuery: "online shopping sale discount" },
+  { topic: "Marketing digital para negocios en temporada navideña en Guadalajara", tags: ["marketing digital", "navidad", "Guadalajara", "ventas"], imgQuery: "christmas shopping marketing" },
 ];
 
 const brandImages = [
