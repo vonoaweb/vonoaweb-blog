@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 // ── APIs ──────────────────────────────────────────────
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+const MODELS = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
 const UNSPLASH_KEY = process.env.UNSPLASH_ACCESS_KEY;
 const PEXELS_KEY = process.env.PEXELS_API_KEY;
 
@@ -159,17 +159,38 @@ async function getImage(query) {
   return img;
 }
 
-// ── Gemini AI Generation ─────────────────────────────
+// ── Gemini AI Generation (with retry + fallback) ─────
+
+const RETRY_DELAYS = [5000, 15000, 30000];
 
 async function geminiGenerate(prompt, maxTokens = 2500) {
-  const result = await model.generateContent({
-    contents: [{ role: 'user', parts: [{ text: prompt }] }],
-    generationConfig: {
-      temperature: 0.75,
-      maxOutputTokens: maxTokens,
-    },
-  });
-  return result.response.text().trim();
+  for (const modelName of MODELS) {
+    const model = genAI.getGenerativeModel({ model: modelName });
+    for (let attempt = 0; attempt <= RETRY_DELAYS.length; attempt++) {
+      try {
+        const result = await model.generateContent({
+          contents: [{ role: 'user', parts: [{ text: prompt }] }],
+          generationConfig: {
+            temperature: 0.75,
+            maxOutputTokens: maxTokens,
+          },
+        });
+        return result.response.text().trim();
+      } catch (err) {
+        const isRetryable = err.message?.includes('503') || err.message?.includes('429') || err.message?.includes('overloaded') || err.message?.includes('high demand');
+        if (isRetryable && attempt < RETRY_DELAYS.length) {
+          const delay = RETRY_DELAYS[attempt];
+          console.log(`⏳ ${modelName} no disponible (intento ${attempt + 1}), reintentando en ${delay / 1000}s...`);
+          await new Promise(r => setTimeout(r, delay));
+          continue;
+        }
+        console.log(`⚠️  ${modelName} falló: ${err.message}`);
+        break;
+      }
+    }
+    console.log(`🔄 Cambiando a siguiente modelo...`);
+  }
+  throw new Error('Todos los modelos de Gemini fallaron después de múltiples reintentos');
 }
 
 async function generateArticle(topic) {
