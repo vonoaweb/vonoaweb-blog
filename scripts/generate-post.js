@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 // ── Paths ────────────────────────────────────────────
 const __filename = fileURLToPath(import.meta.url);
@@ -89,9 +89,10 @@ const topics = [
   { topic: "Señales de que tu página web ya está obsoleta y te cuesta ventas", tags: ["diseño web", "rediseño", "UX", "PYMES"], imgQuery: "outdated old website laptop" },
   { topic: "Rediseño web: cuándo vale la pena renovar tu sitio", tags: ["diseño web", "rediseño", "PYMES", "Guadalajara"], imgQuery: "website redesign before after" },
 
-  // --- Estacionales (publicar en su temporada) ---
-  { topic: "Cómo preparar tu tienda en línea para El Buen Fin", tags: ["e-commerce", "Buen Fin", "ventas", "México"], imgQuery: "online shopping sale discount" },
-  { topic: "Marketing digital para negocios en temporada navideña en Guadalajara", tags: ["marketing digital", "navidad", "Guadalajara", "ventas"], imgQuery: "christmas shopping marketing" },
+  // --- Estacionales (solo se publican en su temporada, ver campo "season") ---
+  // season: meses (1-12) en los que el tema es elegible
+  { topic: "Cómo preparar tu tienda en línea para El Buen Fin", tags: ["e-commerce", "Buen Fin", "ventas", "México"], imgQuery: "online shopping sale discount", season: [10, 11] },
+  { topic: "Marketing digital para negocios en temporada navideña en Guadalajara", tags: ["marketing digital", "navidad", "Guadalajara", "ventas"], imgQuery: "christmas shopping marketing", season: [11, 12] },
 ];
 
 const brandImages = [
@@ -121,15 +122,32 @@ function slugify(text) {
     .substring(0, 70);
 }
 
+// Un tema es elegible si no tiene "season", o si el mes actual está en su temporada
+function isInSeason(topic, month) {
+  if (!topic.season) return true;
+  return topic.season.includes(month);
+}
+
 function pickTopic() {
   const used = getUsedSlugs();
-  const available = topics.filter(t => !used.includes(slugify(t.topic)));
-  if (!available.length) {
-    console.log('⚠️  Todos los temas ya fueron usados. Seleccionando aleatorio.');
-    return topics[Math.floor(Math.random() * topics.length)];
+  const month = new Date().getMonth() + 1; // 1-12
+
+  // Preferencia: no usados Y en temporada
+  let pool = topics.filter(t => !used.includes(slugify(t.topic)) && isInSeason(t, month));
+
+  if (!pool.length) {
+    // Todos los de temporada ya usados: permitir repetir, pero respetando temporada
+    console.log('⚠️  Todos los temas en temporada ya fueron usados. Seleccionando aleatorio en temporada.');
+    pool = topics.filter(t => isInSeason(t, month));
   }
+  if (!pool.length) {
+    // Caso extremo: nada en temporada. Aleatorio global (sin estacionales fuera de fecha).
+    console.log('⚠️  Sin temas en temporada. Seleccionando aleatorio global.');
+    pool = topics.filter(t => !t.season);
+  }
+
   // Aleatorio entre disponibles para variar categorías
-  return available[Math.floor(Math.random() * available.length)];
+  return pool[Math.floor(Math.random() * pool.length)];
 }
 
 // ── Image APIs (Pexels → Unsplash → Brand fallback) ─
@@ -333,7 +351,13 @@ ${content}
   console.log(`📊 Palabras: ~${content.split(/\s+/).length}`);
 }
 
-main().catch(err => {
-  console.error('❌ Error:', err.message);
-  process.exit(1);
-});
+// Exports para pruebas (no se ejecuta main al importar)
+export { topics, slugify, isInSeason, pickTopic };
+
+// Solo ejecuta main() cuando se corre el script directamente (node generate-post.js)
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch(err => {
+    console.error('❌ Error:', err.message);
+    process.exit(1);
+  });
+}
