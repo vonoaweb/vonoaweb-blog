@@ -114,6 +114,19 @@ function getUsedSlugs() {
     .map(f => f.replace('.md', ''));
 }
 
+// ¿Ya existe un artículo publicado con la fecha de hoy?
+// Evita duplicados cuando varios triggers de respaldo corren el mismo día.
+function alreadyPublishedOn(dateStr) {
+  if (!fs.existsSync(CONTENT_DIR)) return false;
+  return fs.readdirSync(CONTENT_DIR)
+    .filter(f => f.endsWith('.md'))
+    .some(f => {
+      const content = fs.readFileSync(path.join(CONTENT_DIR, f), 'utf8');
+      const m = content.match(/^date:\s*(\d{4}-\d{2}-\d{2})/m);
+      return m && m[1] === dateStr;
+    });
+}
+
 function slugify(text) {
   return text.toLowerCase()
     .normalize('NFD').replace(/[̀-ͯ]/g, '')
@@ -303,9 +316,16 @@ Ejemplo: "Descubre cómo el SEO local puede ayudar a tu negocio en Guadalajara a
 // ── Main ─────────────────────────────────────────────
 
 async function main() {
+  const date = new Date().toISOString().split('T')[0];
+
+  // Idempotencia: si ya se publicó hoy, no hacer nada (varios triggers de respaldo)
+  if (alreadyPublishedOn(date)) {
+    console.log(`✋ Ya existe un artículo con fecha ${date}. Nada que hacer.`);
+    return;
+  }
+
   const { topic, tags, imgQuery } = pickTopic();
   const slug = slugify(topic);
-  const date = new Date().toISOString().split('T')[0];
 
   console.log(`\n🚀 Generando artículo: "${topic}"`);
   console.log(`📅 Fecha: ${date}`);
@@ -352,7 +372,7 @@ ${content}
 }
 
 // Exports para pruebas (no se ejecuta main al importar)
-export { topics, slugify, isInSeason, pickTopic };
+export { topics, slugify, isInSeason, pickTopic, alreadyPublishedOn };
 
 // Solo ejecuta main() cuando se corre el script directamente (node generate-post.js)
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
