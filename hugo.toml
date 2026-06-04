@@ -12,6 +12,16 @@ enableRobotsTXT = true
   siteUrl = "https://vonoaweb.com"
   # Google Tag Manager — mismo que vonoaweb.com
   gtmId = "GTM-WGD4B5F5"
+  # Google Analytics 4
+  ga4Id = "G-3KN5E8EFG2"
+  # Google Ads
+  gadsId = "AW-10804436682"
+  # Meta Pixel
+  metaPixelId = "823900389572284"
+  # Microsoft Clarity
+  clarityId = "saa39f5odh"
+  # Google Search Console (pegar código de verificación aquí)
+  # googleSiteVerification = "TU_CODIGO_AQUI"
 
 [params.og]
   image = "/images/brand/og-default.webp"
