@@ -6,6 +6,9 @@
   <title>{{ if .IsHome }}Blog | VonoaWeb — Diseño Web + IA en Guadalajara{{ else }}{{ .Title }} | Blog VonoaWeb{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
+  {{/* Paginas de etiquetas y categorias: casi vacias. Google las sigue (follow)
+       para llegar a los articulos, pero no las indexa ni van en el sitemap. */}}
+  {{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}<meta name="robots" content="noindex,follow">{{ end }}
   <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ else }}diseño web Guadalajara, IA para PYMES, chatbot WhatsApp, automatización{{ end }}">
 
   <!-- Open Graph -->
@@ -23,49 +26,19 @@
   <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   {{ with .Params.image }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
 
+  {{/* Datos estructurados. Se arman como mapa y se pasan por jsonify para que
+       un titulo con comillas no rompa el JSON. El publisher apunta al
+       negocio de vonoaweb.com (#negocio) para que Google una blog y sitio. */}}
+  {{ $negocio := dict "@type" "ProfessionalService" "@id" "https://vonoaweb.com/#negocio" "name" "VonoaWeb" "url" "https://vonoaweb.com/" "logo" "https://vonoaweb.com/assets/vona-icon.webp" }}
   {{ if .IsPage }}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "{{ .Title }}",
-    "description": "{{ .Description }}",
-    "datePublished": "{{ .Date.Format "2006-01-02" }}",
-    "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
-    "author": {
-      "@type": "Organization",
-      "name": "VonoaWeb",
-      "url": "https://vonoaweb.com"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "VonoaWeb",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://vonoaweb.com/assets/vona-icon.webp"
-      }
-    },
-    "mainEntityOfPage": "{{ .Permalink }}",
-    "image": "{{ with .Params.image }}{{ . | absURL }}{{ end }}"
-  }
-  </script>
+  {{ $post := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "description" .Description "datePublished" (.Date.Format "2006-01-02") "dateModified" (.Lastmod.Format "2006-01-02") "inLanguage" "es-MX" "author" $negocio "publisher" $negocio "mainEntityOfPage" .Permalink }}
+  {{ with .Params.image }}{{ $post = merge $post (dict "image" (. | absURL)) }}{{ end }}
+  <script type="application/ld+json">{{ $post | jsonify | safeJS }}</script>
+  {{ $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "Inicio" "item" "https://vonoaweb.com/") (dict "@type" "ListItem" "position" 2 "name" "Blog" "item" .Site.BaseURL) (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink) }}
+  <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs | jsonify | safeJS }}</script>
   {{ end }}
-
   {{ if .IsHome }}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Blog",
-    "name": "Blog VonoaWeb",
-    "description": "{{ .Site.Params.description }}",
-    "url": "{{ .Site.BaseURL }}",
-    "publisher": {
-      "@type": "Organization",
-      "name": "VonoaWeb",
-      "url": "https://vonoaweb.com"
-    }
-  }
-  </script>
+  <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "Blog" "name" "Blog VonoaWeb" "description" .Site.Params.description "url" .Site.BaseURL "inLanguage" "es-MX" "publisher" $negocio | jsonify | safeJS }}</script>
   {{ end }}
 
   <link rel="preconnect" href="https://fonts.googleapis.com">

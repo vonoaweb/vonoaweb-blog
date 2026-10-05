@@ -3,7 +3,7 @@ title: "Redes sociales vs página web: qué necesita tu negocio primero"
 date: 2026-06-29
 draft: false
 slug: "redes-sociales-vs-pagina-web-que-necesita-tu-negocio-primero"
-description: "Redes sociales vs página web: qué necesita tu negocio primero. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Redes sociales o página web: qué necesita primero tu negocio, ventajas de cada una y cómo combinarlas para conseguir clientes en Guadalajara."
 tags: ["redes sociales", "diseño web", "PYMES", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/267371/pexels-photo-267371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

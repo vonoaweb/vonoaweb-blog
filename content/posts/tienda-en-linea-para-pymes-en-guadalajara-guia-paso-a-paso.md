@@ -3,7 +3,7 @@ title: "Tienda en línea para PYMES en Guadalajara: guía paso a paso"
 date: 2026-07-24
 draft: false
 slug: "tienda-en-linea-para-pymes-en-guadalajara-guia-paso-a-paso"
-description: "Tienda en línea para PYMES en Guadalajara: guía paso a paso. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Guía paso a paso para crear la tienda en línea de tu PYME en Guadalajara: plataforma, pagos, envíos, fotos de producto y primeras ventas."
 tags: ["e-commerce", "PYMES", "Guadalajara", "diseño web"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

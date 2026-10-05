@@ -3,7 +3,7 @@ title: "Cómo conseguir reseñas en Google para tu negocio en Zapopan"
 date: 2026-06-12
 draft: false
 slug: "como-conseguir-resenas-en-google-para-tu-negocio-en-zapopan"
-description: "Cómo conseguir reseñas en Google para tu negocio en Zapopan. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Estrategias para conseguir más reseñas en Google para tu negocio en Zapopan, cómo pedirlas sin incomodar y cómo responderlas para ganar clientes."
 tags: ["SEO", "Google", "Zapopan", "reputación online"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/11894045/pexels-photo-11894045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

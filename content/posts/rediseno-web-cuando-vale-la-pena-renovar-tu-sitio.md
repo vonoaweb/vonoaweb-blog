@@ -3,7 +3,7 @@ title: "Rediseño web: cuándo vale la pena renovar tu sitio"
 date: 2026-08-28
 draft: false
 slug: "rediseno-web-cuando-vale-la-pena-renovar-tu-sitio"
-description: "Rediseño web: cuándo vale la pena renovar tu sitio. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Cuándo vale la pena rediseñar tu página web: señales de que tu sitio frena ventas y cómo renovarlo sin perder tu posición en Google."
 tags: ["diseño web", "rediseño", "PYMES", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/38519/macbook-laptop-ipad-apple-38519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

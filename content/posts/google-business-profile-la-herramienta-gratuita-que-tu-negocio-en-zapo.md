@@ -3,7 +3,7 @@ title: "Google Business Profile: la herramienta gratuita que tu negocio en Zapop
 date: 2026-07-20
 draft: false
 slug: "google-business-profile-la-herramienta-gratuita-que-tu-negocio-en-zapo"
-description: "Google Business Profile: la herramienta gratuita que tu negocio en Zapopan necesita. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Cómo configurar y optimizar Google Business Profile gratis para tu negocio en Zapopan y aparecer en Google Maps y en búsquedas locales."
 tags: ["SEO", "Google", "Zapopan", "marketing digital"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/5444631/pexels-photo-5444631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

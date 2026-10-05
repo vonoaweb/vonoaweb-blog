@@ -3,7 +3,7 @@ title: "Diseño web para constructoras y arquitectos en Jalisco"
 date: 2026-09-23
 draft: false
 slug: "diseno-web-para-constructoras-y-arquitectos-en-jalisco"
-description: "Diseño web para constructoras y arquitectos en Jalisco. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Diseño web para constructoras y despachos de arquitectura en Jalisco: portafolio de obras, generación de prospectos y SEO para proyectos."
 tags: ["diseño web", "construcción", "arquitectura", "Jalisco"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/12475586/pexels-photo-12475586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

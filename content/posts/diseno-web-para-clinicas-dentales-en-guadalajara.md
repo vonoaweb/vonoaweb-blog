@@ -3,7 +3,7 @@ title: "Diseño web para clínicas dentales en Guadalajara"
 date: 2026-09-21
 draft: false
 slug: "diseno-web-para-clinicas-dentales-en-guadalajara"
-description: "Diseño web para clínicas dentales en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Diseño web para clínicas dentales en Guadalajara: qué debe tener tu sitio para atraer pacientes, agendar citas en línea y aparecer en Google."
 tags: ["diseño web", "salud", "dental", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/4269268/pexels-photo-4269268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

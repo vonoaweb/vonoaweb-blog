@@ -3,7 +3,7 @@ title: "Página web para gimnasios y estudios fitness en Zapopan"
 date: 2026-07-29
 draft: false
 slug: "pagina-web-para-gimnasios-y-estudios-fitness-en-zapopan"
-description: "Página web para gimnasios y estudios fitness en Zapopan. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Página web para gimnasios y estudios fitness en Zapopan: horarios, clases, membresías en línea y SEO local para llenar tus grupos."
 tags: ["diseño web", "fitness", "Zapopan", "PYMES"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/4853261/pexels-photo-4853261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

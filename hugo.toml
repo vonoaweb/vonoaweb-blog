@@ -1,14 +1,13 @@
 baseURL = "https://blog.vonoaweb.com/"
 defaultContentLanguage = "es"
 title = "Blog VonoaWeb"
-paginate = 9
 summaryLength = 40
 enableRobotsTXT = true
 
 [params]
   description = "Artículos sobre diseño web, IA y automatización para PYMES en Guadalajara"
   author = "VonoaWeb"
-  whatsapp = "523312345678"
+  whatsapp = "525644645574"
   siteUrl = "https://vonoaweb.com"
   # Google Tag Manager — mismo que vonoaweb.com
   gtmId = "GTM-WGD4B5F5"
@@ -22,6 +21,9 @@ enableRobotsTXT = true
   clarityId = "saa39f5odh"
   # Google Search Console (pegar código de verificación aquí)
   # googleSiteVerification = "TU_CODIGO_AQUI"
+
+[pagination]
+  pagerSize = 9
 
 [params.og]
   image = "/images/brand/og-default.webp"

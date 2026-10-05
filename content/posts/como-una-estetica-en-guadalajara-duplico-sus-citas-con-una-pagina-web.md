@@ -3,7 +3,7 @@ title: "Cómo una estética en Guadalajara duplicó sus citas con una página we
 date: 2026-07-13
 draft: false
 slug: "como-una-estetica-en-guadalajara-duplico-sus-citas-con-una-pagina-web"
-description: "Cómo una estética en Guadalajara duplicó sus citas con una página web. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Caso de una estética en Guadalajara que duplicó sus citas con una página web, reservas en línea y WhatsApp. Qué hizo y qué puedes copiar."
 tags: ["caso de éxito", "salud y belleza", "Guadalajara", "diseño web"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/7750114/pexels-photo-7750114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

@@ -3,7 +3,7 @@ title: "Diseño web para inmobiliarias y agentes de bienes raíces en Guadalajar
 date: 2026-06-08
 draft: false
 slug: "diseno-web-para-inmobiliarias-y-agentes-de-bienes-raices-en-guadalajar"
-description: "Diseño web para inmobiliarias y agentes de bienes raíces en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Página web para inmobiliarias y agentes de bienes raíces en Guadalajara: catálogo de propiedades, captación de prospectos y chatbot para WhatsApp."
 tags: ["diseño web", "inmobiliarias", "Guadalajara", "PYMES"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/8112163/pexels-photo-8112163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

@@ -3,7 +3,7 @@ title: "Cómo aparecer en el mapa de Google si tienes un negocio en Guadalajara"
 date: 2026-08-19
 draft: false
 slug: "como-aparecer-en-el-mapa-de-google-si-tienes-un-negocio-en-guadalajara"
-description: "Cómo aparecer en el mapa de Google si tienes un negocio en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Paso a paso para que tu negocio aparezca en Google Maps en Guadalajara: perfil de empresa, categorías, fotos, reseñas y datos de contacto."
 tags: ["SEO", "Google Maps", "Guadalajara", "PYMES"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/7663519/pexels-photo-7663519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

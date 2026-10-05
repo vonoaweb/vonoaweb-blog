@@ -3,7 +3,7 @@ title: "Certificado SSL: qué es y por qué tu página web lo necesita"
 date: 2026-05-29
 draft: false
 slug: "certificado-ssl-que-es-y-por-que-tu-pagina-web-lo-necesita"
-description: "Certificado SSL: qué es y por qué tu página web lo necesita. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Qué es un certificado SSL (el candado HTTPS), por qué Google y tus clientes lo exigen y cómo saber si tu página web lo tiene bien instalado."
 tags: ["seguridad web", "SSL", "diseño web", "tutorial"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/36740854/pexels-photo-36740854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

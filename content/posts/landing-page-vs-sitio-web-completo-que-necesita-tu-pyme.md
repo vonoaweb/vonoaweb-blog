@@ -3,7 +3,7 @@ title: "Landing page vs sitio web completo: qué necesita tu PYME"
 date: 2026-08-29
 draft: false
 slug: "landing-page-vs-sitio-web-completo-que-necesita-tu-pyme"
-description: "Landing page vs sitio web completo: qué necesita tu PYME. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Landing page o sitio web completo: diferencias, costos y cuál necesita tu PYME según tu objetivo, ya sea campaña, SEO o catálogo de servicios."
 tags: ["diseño web", "landing page", "PYMES", "conversiones"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/11813187/pexels-photo-11813187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

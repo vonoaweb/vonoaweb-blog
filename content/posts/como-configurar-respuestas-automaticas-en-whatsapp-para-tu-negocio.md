@@ -3,7 +3,7 @@ title: "Cómo configurar respuestas automáticas en WhatsApp para tu negocio"
 date: 2026-07-22
 draft: false
 slug: "como-configurar-respuestas-automaticas-en-whatsapp-para-tu-negocio"
-description: "Cómo configurar respuestas automáticas en WhatsApp para tu negocio. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Configura respuestas automáticas en WhatsApp Business: mensaje de bienvenida, ausencia y respuestas rápidas, y cuándo conviene pasar a un chatbot con IA."
 tags: ["WhatsApp", "automatización", "PYMES", "tutorial"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/7504897/pexels-photo-7504897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

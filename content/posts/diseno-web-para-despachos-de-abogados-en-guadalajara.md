@@ -3,7 +3,7 @@ title: "Diseño web para despachos de abogados en Guadalajara"
 date: 2026-05-25
 draft: false
 slug: "diseno-web-para-despachos-de-abogados-en-guadalajara"
-description: "Diseño web para despachos de abogados en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Diseño web para despachos de abogados en Guadalajara: transmite confianza, explica tus áreas de práctica y recibe consultas desde Google."
 tags: ["diseño web", "servicios profesionales", "Guadalajara", "PYMES"]
 author: "VonoaWeb"
 image: "images/blog/chatbot-restaurante.jpg"

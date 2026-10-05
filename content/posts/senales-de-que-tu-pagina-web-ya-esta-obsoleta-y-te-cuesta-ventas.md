@@ -3,7 +3,7 @@ title: "Señales de que tu página web ya está obsoleta y te cuesta ventas"
 date: 2026-08-14
 draft: false
 slug: "senales-de-que-tu-pagina-web-ya-esta-obsoleta-y-te-cuesta-ventas"
-description: "Señales de que tu página web ya está obsoleta y te cuesta ventas. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Señales de que tu página web ya está obsoleta y te cuesta ventas: lentitud, mal diseño en celular, sin HTTPS y sin forma fácil de contactarte."
 tags: ["diseño web", "rediseño", "UX", "PYMES"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/1181449/pexels-photo-1181449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

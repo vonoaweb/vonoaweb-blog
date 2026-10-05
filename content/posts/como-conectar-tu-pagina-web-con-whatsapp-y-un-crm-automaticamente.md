@@ -3,7 +3,7 @@ title: "Cómo conectar tu página web con WhatsApp y un CRM automáticamente"
 date: 2026-09-30
 draft: false
 slug: "como-conectar-tu-pagina-web-con-whatsapp-y-un-crm-automaticamente"
-description: "Cómo conectar tu página web con WhatsApp y un CRM automáticamente. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Conecta tu página web con WhatsApp y un CRM para que cada prospecto quede registrado y reciba respuesta automática. Guía para PYMES en Guadalajara."
 tags: ["automatización", "CRM", "WhatsApp", "integración"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/8284734/pexels-photo-8284734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

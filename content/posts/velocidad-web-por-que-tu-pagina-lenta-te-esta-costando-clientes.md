@@ -3,7 +3,7 @@ title: "Velocidad web: por qué tu página lenta te está costando clientes"
 date: 2026-05-25
 draft: false
 slug: "velocidad-web-por-que-tu-pagina-lenta-te-esta-costando-clientes"
-description: "Velocidad web: por qué tu página lenta te está costando clientes. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Por qué una página web lenta te cuesta clientes y posiciones en Google, cómo medir su velocidad y qué arreglar primero para que cargue rápido."
 tags: ["rendimiento web", "SEO", "PageSpeed", "PYMES"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/13595855/pexels-photo-13595855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

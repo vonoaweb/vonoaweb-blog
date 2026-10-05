@@ -3,7 +3,7 @@ title: "Marketing digital para restaurantes en Guadalajara: estrategia completa"
 date: 2026-06-19
 draft: false
 slug: "marketing-digital-para-restaurantes-en-guadalajara-estrategia-completa"
-description: "Marketing digital para restaurantes en Guadalajara: estrategia completa. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Estrategia de marketing digital para restaurantes en Guadalajara: Google Maps, redes, reseñas, pedidos por WhatsApp y página web que vende."
 tags: ["marketing digital", "restaurantes", "Guadalajara", "redes sociales"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/36904811/pexels-photo-36904811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

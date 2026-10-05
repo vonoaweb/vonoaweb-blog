@@ -3,7 +3,7 @@ title: "Email marketing automatizado para negocios en Zapopan"
 date: 2026-09-04
 draft: false
 slug: "email-marketing-automatizado-para-negocios-en-zapopan"
-description: "Email marketing automatizado para negocios en Zapopan. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Email marketing automatizado para negocios en Zapopan: bienvenida, carritos abandonados y promociones que se envían solas y generan ventas."
 tags: ["email marketing", "automatización", "Zapopan", "PYMES"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/19387235/pexels-photo-19387235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

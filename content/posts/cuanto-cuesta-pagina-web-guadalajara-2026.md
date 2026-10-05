@@ -3,6 +3,7 @@ title: "Cuánto Cuesta una Página Web en Guadalajara en 2026"
 date: 2026-05-08
 draft: false
 slug: "cuanto-cuesta-pagina-web-guadalajara-2026"
+aliases: ["/posts/cuanto-cuesta-una-pagina-web-en-guadalajara-en-2026/"]
 description: "Guía de precios actualizada para diseño web en Guadalajara. Compara costos de freelancers, agencias y plataformas DIY para PYMES en Jalisco."
 tags: ["diseño web", "precios", "Guadalajara", "PYMES"]
 author: "VonoaWeb"
@@ -11,7 +12,7 @@ imageAlt: "Diseñador web trabajando en código y diseño responsive en monitor 
 imageCredit: "Fotis Fotopoulos / Unsplash"
 ---
 
-## La pregunta del millón (o de los $5,999)
+## La pregunta del millón (o de los $5,200)
 
 Es la primera pregunta que nos hacen todos los dueños de negocio en Guadalajara: **"¿Cuánto me va a costar mi página web?"** La respuesta honesta es: depende. Pero no te preocupes — aquí te doy números reales del mercado de Guadalajara en 2026.
 
@@ -22,7 +23,7 @@ Es la primera pregunta que nos hacen todos los dueños de negocio en Guadalajara
 | **Plataforma DIY** (Wix, Squarespace) | $200-500 MXN/mes | Tú lo haces | Plantilla, hosting |
 | **Freelancer Jr** | $3,000-8,000 MXN | 2-4 semanas | Diseño básico, responsivo |
 | **Freelancer Sr / Estudio** | $8,000-25,000 MXN | 3-6 semanas | Diseño custom, SEO básico |
-| **Agencia con IA** (VonoaWeb) | $5,999-18,000 MXN | 7-14 días | Diseño + Chatbot IA + SEO |
+| **Agencia con IA** (VonoaWeb) | $5,200-18,000 MXN | 7-14 días | Diseño + Chatbot IA + SEO |
 | **Agencia grande** | $30,000-120,000+ MXN | 6-12 semanas | Branding completo, estrategia |
 
 Estos precios son para sitios informativos de 4-8 páginas. E-commerce y sistemas a medida son otra historia.

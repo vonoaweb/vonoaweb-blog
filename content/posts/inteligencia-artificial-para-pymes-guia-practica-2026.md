@@ -3,7 +3,7 @@ title: "Inteligencia artificial para PYMES: guía práctica 2026"
 date: 2026-06-05
 draft: false
 slug: "inteligencia-artificial-para-pymes-guia-practica-2026"
-description: "Inteligencia artificial para PYMES: guía práctica 2026. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Guía práctica de inteligencia artificial para PYMES en 2026: usos reales en ventas, atención y operación, herramientas y por dónde empezar."
 tags: ["IA", "PYMES", "automatización", "tecnología"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/8439174/pexels-photo-8439174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

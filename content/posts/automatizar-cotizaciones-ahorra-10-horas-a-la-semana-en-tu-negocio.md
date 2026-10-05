@@ -3,7 +3,7 @@ title: "Automatizar cotizaciones: ahorra 10 horas a la semana en tu negocio"
 date: 2026-10-05
 draft: false
 slug: "automatizar-cotizaciones-ahorra-10-horas-a-la-semana-en-tu-negocio"
-description: "Automatizar cotizaciones: ahorra 10 horas a la semana en tu negocio. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Cómo automatizar tus cotizaciones con formularios, WhatsApp e IA para responder en minutos y ahorrar hasta 10 horas a la semana en tu negocio."
 tags: ["automatización", "PYMES", "productividad", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/7688187/pexels-photo-7688187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

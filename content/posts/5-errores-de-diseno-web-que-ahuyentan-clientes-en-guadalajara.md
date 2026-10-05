@@ -3,7 +3,7 @@ title: "5 errores de diseño web que ahuyentan clientes en Guadalajara"
 date: 2026-08-17
 draft: false
 slug: "5-errores-de-diseno-web-que-ahuyentan-clientes-en-guadalajara"
-description: "5 errores de diseño web que ahuyentan clientes en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Los 5 errores de diseño web que más clientes le cuestan a las PYMES de Guadalajara y cómo corregirlos: velocidad, celular, llamadas a la acción y confianza."
 tags: ["diseño web", "UX", "conversiones", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/6372814/pexels-photo-6372814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

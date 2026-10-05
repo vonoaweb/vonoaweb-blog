@@ -3,7 +3,7 @@ title: "IA para responder reseñas de Google automáticamente"
 date: 2026-07-17
 draft: false
 slug: "ia-para-responder-resenas-de-google-automaticamente"
-description: "IA para responder reseñas de Google automáticamente. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Cómo usar IA para responder reseñas de Google de forma automática y personal, cuidar la reputación de tu negocio y mejorar tu posición local."
 tags: ["IA", "reseñas", "Google", "reputación online"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/11370617/pexels-photo-11370617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

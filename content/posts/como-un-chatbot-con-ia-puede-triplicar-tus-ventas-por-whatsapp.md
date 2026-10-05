@@ -3,7 +3,7 @@ title: "Cómo un chatbot con IA puede triplicar tus ventas por WhatsApp"
 date: 2026-09-28
 draft: false
 slug: "como-un-chatbot-con-ia-puede-triplicar-tus-ventas-por-whatsapp"
-description: "Cómo un chatbot con IA puede triplicar tus ventas por WhatsApp. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Cómo un chatbot con IA en WhatsApp responde al instante, califica prospectos y cierra más ventas para tu negocio, incluso fuera de horario."
 tags: ["chatbot", "IA", "ventas", "WhatsApp"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/32021560/pexels-photo-32021560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

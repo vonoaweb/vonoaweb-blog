@@ -3,7 +3,7 @@ title: "Cómo automatizar el seguimiento a clientes con IA y WhatsApp"
 date: 2026-08-21
 draft: false
 slug: "como-automatizar-el-seguimiento-a-clientes-con-ia-y-whatsapp"
-description: "Cómo automatizar el seguimiento a clientes con IA y WhatsApp. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Cómo dar seguimiento automático a tus clientes con IA y WhatsApp: mensajes después de cotizar, recordatorios y recompra sin perder ningún prospecto."
 tags: ["automatización", "WhatsApp", "IA", "ventas"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/7709146/pexels-photo-7709146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

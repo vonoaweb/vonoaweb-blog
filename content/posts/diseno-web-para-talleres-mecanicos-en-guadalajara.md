@@ -3,7 +3,7 @@ title: "Diseño web para talleres mecánicos en Guadalajara"
 date: 2026-06-10
 draft: false
 slug: "diseno-web-para-talleres-mecanicos-en-guadalajara"
-description: "Diseño web para talleres mecánicos en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Página web para talleres mecánicos en Guadalajara: servicios, cotizaciones por WhatsApp y presencia en Google Maps para atraer más clientes."
 tags: ["diseño web", "automotriz", "Guadalajara", "PYMES"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/33814734/pexels-photo-33814734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

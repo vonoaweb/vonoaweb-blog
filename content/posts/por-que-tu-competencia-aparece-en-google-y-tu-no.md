@@ -3,7 +3,7 @@ title: "Por qué tu competencia aparece en Google y tú no"
 date: 2026-07-01
 draft: false
 slug: "por-que-tu-competencia-aparece-en-google-y-tu-no"
-description: "Por qué tu competencia aparece en Google y tú no. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Por qué tu competencia aparece en Google y tú no: las causas más comunes (SEO, Google Maps, velocidad, contenido) y cómo corregirlas."
 tags: ["SEO", "Google", "PYMES", "marketing digital"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/18530501/pexels-photo-18530501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

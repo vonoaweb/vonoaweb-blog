@@ -3,7 +3,7 @@ title: "Cómo aparecer en las búsquedas 'cerca de mí' en Guadalajara"
 date: 2026-08-12
 draft: false
 slug: "como-aparecer-en-las-busquedas-cerca-de-mi-en-guadalajara"
-description: "Cómo aparecer en las búsquedas 'cerca de mí' en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Cómo hacer que tu negocio salga en las búsquedas 'cerca de mí' en Guadalajara y Zapopan con SEO local, Google Business Profile y reseñas."
 tags: ["SEO", "búsqueda local", "Guadalajara", "Google"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/5448160/pexels-photo-5448160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

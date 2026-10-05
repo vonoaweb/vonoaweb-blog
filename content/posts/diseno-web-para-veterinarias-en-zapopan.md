@@ -3,7 +3,7 @@ title: "Diseño web para veterinarias en Zapopan"
 date: 2026-09-09
 draft: false
 slug: "diseno-web-para-veterinarias-en-zapopan"
-description: "Diseño web para veterinarias en Zapopan. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Diseño web para clínicas veterinarias en Zapopan: citas en línea, urgencias, servicios y SEO local para que los dueños de mascotas te encuentren."
 tags: ["diseño web", "veterinaria", "Zapopan", "PYMES"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

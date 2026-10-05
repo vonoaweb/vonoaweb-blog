@@ -3,7 +3,7 @@ title: "Automatización de procesos para PYMES en Jalisco"
 date: 2026-07-31
 draft: false
 slug: "automatizacion-de-procesos-para-pymes-en-jalisco"
-description: "Automatización de procesos para PYMES en Jalisco. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Guía de automatización de procesos para PYMES en Jalisco: qué tareas automatizar primero, con qué herramientas y cuánto tiempo puedes ahorrar."
 tags: ["automatización", "PYMES", "Jalisco", "IA"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/36522033/pexels-photo-36522033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

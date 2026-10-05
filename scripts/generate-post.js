@@ -88,6 +88,26 @@ const topics = [
   { topic: "Agencia de diseño web vs freelancer vs hacerlo tú mismo: qué te conviene", tags: ["diseño web", "PYMES", "comparativa", "Guadalajara"], imgQuery: "team meeting web design agency" },
   { topic: "Señales de que tu página web ya está obsoleta y te cuesta ventas", tags: ["diseño web", "rediseño", "UX", "PYMES"], imgQuery: "outdated old website laptop" },
   { topic: "Rediseño web: cuándo vale la pena renovar tu sitio", tags: ["diseño web", "rediseño", "PYMES", "Guadalajara"], imgQuery: "website redesign before after" },
+  { topic: "Cómo elegir una agencia de diseño web en Zapopan: 10 preguntas antes de contratar", tags: ["diseño web", "Zapopan", "PYMES", "comparativa"], imgQuery: "business meeting web agency" },
+  { topic: "Shopify vs WooCommerce para PYMES en México: cuál conviene", tags: ["e-commerce", "Shopify", "WooCommerce", "México"], imgQuery: "ecommerce platform laptop" },
+  { topic: "Pasarelas de pago en México para tu tienda en línea: Mercado Pago, Stripe y más", tags: ["e-commerce", "pagos", "México", "PYMES"], imgQuery: "online payment card checkout" },
+  { topic: "Cuánto cuesta mantener una página web al mes en México", tags: ["diseño web", "precios", "mantenimiento", "PYMES"], imgQuery: "website maintenance laptop" },
+  { topic: "Cuánto tarda una página web nueva en aparecer en Google", tags: ["SEO", "Google", "diseño web", "PYMES"], imgQuery: "google search laptop waiting" },
+  { topic: "Cómo saber si tu página web te está trayendo clientes con Google Analytics 4", tags: ["analítica", "Google Analytics", "PYMES", "marketing digital"], imgQuery: "analytics dashboard charts" },
+  { topic: "Cómo hacer que ChatGPT y otros asistentes de IA recomienden tu negocio", tags: ["IA", "SEO", "ChatGPT", "PYMES"], imgQuery: "ai assistant chat smartphone" },
+  { topic: "Chatbot con IA vs contratar a una persona para atender WhatsApp: cuánto cuesta cada opción", tags: ["chatbot", "WhatsApp", "costos", "PYMES"], imgQuery: "customer service phone chat" },
+  { topic: "Cómo vender por WhatsApp con catálogo y pagos en línea en México", tags: ["WhatsApp", "ventas", "e-commerce", "México"], imgQuery: "whatsapp shopping smartphone" },
+  { topic: "Dominio .mx o .com: cuál conviene para tu negocio en México", tags: ["dominio", "diseño web", "México", "tutorial"], imgQuery: "domain name website browser" },
+
+  // --- Más giros locales (diseño web por industria) ---
+  { topic: "Página web para restaurantes en Guadalajara: qué debe tener para recibir más pedidos", tags: ["diseño web", "restaurantes", "Guadalajara", "PYMES"], imgQuery: "restaurant website menu phone" },
+  { topic: "Diseño web para salones de belleza y estéticas en Guadalajara", tags: ["diseño web", "salud y belleza", "Guadalajara", "citas"], imgQuery: "beauty salon reception" },
+  { topic: "Página web para psicólogos y terapeutas en Guadalajara", tags: ["diseño web", "salud", "Guadalajara", "consultorios"], imgQuery: "therapist office calm" },
+  { topic: "Diseño web para empresas industriales y manufactureras en Jalisco", tags: ["diseño web", "industria", "Jalisco", "B2B"], imgQuery: "factory manufacturing modern" },
+  { topic: "Página web para tiendas de ropa y boutiques en Guadalajara", tags: ["diseño web", "moda", "e-commerce", "Guadalajara"], imgQuery: "clothing boutique store" },
+  { topic: "Página web para salones de eventos y banquetes en Zapopan", tags: ["diseño web", "eventos", "Zapopan", "PYMES"], imgQuery: "event venue banquet hall" },
+  { topic: "Diseño web para empresas de logística y transporte en Jalisco", tags: ["diseño web", "logística", "Jalisco", "B2B"], imgQuery: "logistics trucks warehouse" },
+  { topic: "Página web para agencias de viajes en Guadalajara", tags: ["diseño web", "turismo", "Guadalajara", "PYMES"], imgQuery: "travel agency planning" },
 
   // --- Estacionales (solo se publican en su temporada, ver campo "season") ---
   // season: meses (1-12) en los que el tema es elegible
@@ -107,11 +127,19 @@ const brandImages = [
 
 // ── Helpers ──────────────────────────────────────────
 
+// Slugs ya ocupados: el nombre de cada archivo mas sus aliases. Un tema que se
+// fusiono con otro articulo queda como alias (aliases: ["/posts/<slug>/"]) y
+// no debe volver a generarse, o Google ve dos articulos compitiendo.
 function getUsedSlugs() {
   if (!fs.existsSync(CONTENT_DIR)) return [];
-  return fs.readdirSync(CONTENT_DIR)
-    .filter(f => f.endsWith('.md'))
-    .map(f => f.replace('.md', ''));
+  const used = [];
+  for (const f of fs.readdirSync(CONTENT_DIR).filter(f => f.endsWith('.md'))) {
+    used.push(f.replace('.md', ''));
+    const content = fs.readFileSync(path.join(CONTENT_DIR, f), 'utf8');
+    const m = content.match(/^aliases:\s*\[(.*)\]/m);
+    if (m) for (const a of m[1].matchAll(/\/posts\/([^/"]+)\/?/g)) used.push(a[1]);
+  }
+  return used;
 }
 
 // ¿Ya existe un artículo publicado con la fecha de hoy?
@@ -148,16 +176,9 @@ function pickTopic() {
   // Preferencia: no usados Y en temporada
   let pool = topics.filter(t => !used.includes(slugify(t.topic)) && isInSeason(t, month));
 
-  if (!pool.length) {
-    // Todos los de temporada ya usados: permitir repetir, pero respetando temporada
-    console.log('⚠️  Todos los temas en temporada ya fueron usados. Seleccionando aleatorio en temporada.');
-    pool = topics.filter(t => isInSeason(t, month));
-  }
-  if (!pool.length) {
-    // Caso extremo: nada en temporada. Aleatorio global (sin estacionales fuera de fecha).
-    console.log('⚠️  Sin temas en temporada. Seleccionando aleatorio global.');
-    pool = topics.filter(t => !t.season);
-  }
+  // Sin temas nuevos no se publica nada: repetir un tema crea un segundo
+  // articulo que compite con el primero en Google (canibalizacion).
+  if (!pool.length) return null;
 
   // Aleatorio entre disponibles para variar categorías
   return pool[Math.floor(Math.random() * pool.length)];
@@ -268,8 +289,10 @@ REGLAS ESTRICTAS:
 - Incluye al menos una tabla comparativa si aplica al tema
 - NO uses frases genéricas como "en el mundo digital actual", "en la era de la tecnología", "en el competitivo mundo de"
 - NO empieces párrafos con "Es importante", "Cabe destacar", "Sin duda alguna"
-- Usa datos reales o realistas (precios en MXN, estadísticas de México)
-- Termina con una conclusión que invite a contactar a VonoaWeb
+- Si mencionas precios de VonoaWeb, usa SOLO estos (MXN, IVA no incluido; vigentes en https://vonoaweb.com/precios.html): páginas web en pago único desde $5,200 (Impulso), $7,400 (Presencia Pro) y $10,500 (tienda en línea); Asistente IA $4,999 de instalación + $2,999 al mes
+- NO inventes casos de clientes, nombres de negocios, testimonios ni porcentajes de resultados. Si das una estadística, que sea conocida y atribuida a su fuente (Google, INEGI, AMVO); si no la conoces con certeza, no la pongas
+- Enlaza en el texto, con Markdown, a la página de VonoaWeb que corresponda: [servicios](https://vonoaweb.com/servicios.html), [precios](https://vonoaweb.com/precios.html) o [portafolio](https://vonoaweb.com/portafolio.html)
+- Termina con una conclusión que invite a contactar a VonoaWeb en [vonoaweb.com/contacto.html](https://vonoaweb.com/contacto.html)
 - NO incluyas el título principal (H1), empieza directo con el contenido
 - Escribe en español de México natural (usa "tú", no "usted")
 - NO incluyas "Artículo escrito con IA" ni disclaimers
@@ -324,7 +347,12 @@ async function main() {
     return;
   }
 
-  const { topic, tags, imgQuery } = pickTopic();
+  const picked = pickTopic();
+  if (!picked) {
+    console.log('✋ No quedan temas nuevos en temporada. Agrega temas a la lista `topics`.');
+    return;
+  }
+  const { topic, tags, imgQuery } = picked;
   const slug = slugify(topic);
 
   console.log(`\n🚀 Generando artículo: "${topic}"`);

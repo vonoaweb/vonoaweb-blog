@@ -3,7 +3,7 @@ title: "Chatbot para clínicas dentales en Guadalajara: agenda citas 24/7"
 date: 2026-06-24
 draft: false
 slug: "chatbot-para-clinicas-dentales-en-guadalajara-agenda-citas-24-7"
-description: "Chatbot para clínicas dentales en Guadalajara: agenda citas 24/7. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Chatbot con IA para clínicas dentales en Guadalajara: agenda citas por WhatsApp las 24 horas, envía recordatorios y reduce las citas perdidas."
 tags: ["chatbot", "salud", "Guadalajara", "automatización"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/6812436/pexels-photo-6812436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

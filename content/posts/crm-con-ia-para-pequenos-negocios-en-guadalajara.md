@@ -3,7 +3,7 @@ title: "CRM con IA para pequeños negocios en Guadalajara"
 date: 2026-08-31
 draft: false
 slug: "crm-con-ia-para-pequenos-negocios-en-guadalajara"
-description: "CRM con IA para pequeños negocios en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Qué es un CRM con IA, cómo ayuda a un pequeño negocio en Guadalajara a no perder prospectos y cuál elegir según tu tamaño y presupuesto."
 tags: ["CRM", "IA", "PYMES", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

@@ -3,7 +3,7 @@ title: "Cómo automatizar el agendamiento de citas en tu negocio sin contratar m
 date: 2026-08-10
 draft: false
 slug: "como-automatizar-el-agendamiento-de-citas-en-tu-negocio-sin-contratar-"
-description: "Cómo automatizar el agendamiento de citas en tu negocio sin contratar más personal. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Automatiza la agenda de citas de tu negocio con WhatsApp, calendario en línea e IA: menos llamadas, menos ausencias y sin contratar más personal."
 tags: ["automatización", "citas", "PYMES", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/38337697/pexels-photo-38337697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

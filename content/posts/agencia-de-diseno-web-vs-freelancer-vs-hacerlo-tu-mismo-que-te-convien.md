@@ -3,7 +3,7 @@ title: "Agencia de diseño web vs freelancer vs hacerlo tú mismo: qué te convi
 date: 2026-09-07
 draft: false
 slug: "agencia-de-diseno-web-vs-freelancer-vs-hacerlo-tu-mismo-que-te-convien"
-description: "Agencia de diseño web vs freelancer vs hacerlo tú mismo: qué te conviene. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Agencia, freelancer o hacerlo tú mismo: compara costos, tiempos y riesgos para elegir cómo hacer la página web de tu PYME en Guadalajara."
 tags: ["diseño web", "PYMES", "comparativa", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/6476257/pexels-photo-6476257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

@@ -3,7 +3,7 @@ title: "Cómo usar IA para atender clientes en tu negocio de Guadalajara"
 date: 2026-09-11
 draft: false
 slug: "como-usar-ia-para-atender-clientes-en-tu-negocio-de-guadalajara"
-description: "Cómo usar IA para atender clientes en tu negocio de Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Cómo usar inteligencia artificial para atender clientes en tu negocio de Guadalajara: chatbots, respuestas por WhatsApp y atención 24/7."
 tags: ["IA", "atención al cliente", "Guadalajara", "chatbot"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/8867198/pexels-photo-8867198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

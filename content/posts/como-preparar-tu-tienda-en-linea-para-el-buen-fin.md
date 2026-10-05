@@ -3,7 +3,7 @@ title: "Cómo preparar tu tienda en línea para El Buen Fin"
 date: 2026-10-02
 draft: false
 slug: "como-preparar-tu-tienda-en-linea-para-el-buen-fin"
-description: "Cómo preparar tu tienda en línea para El Buen Fin. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Checklist para preparar tu tienda en línea para El Buen Fin: velocidad, inventario, pagos, envíos, promociones y atención a clientes por WhatsApp."
 tags: ["e-commerce", "Buen Fin", "ventas", "México"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/5869606/pexels-photo-5869606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

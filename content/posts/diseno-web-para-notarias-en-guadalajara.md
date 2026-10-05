@@ -3,7 +3,7 @@ title: "Diseño web para notarías en Guadalajara"
 date: 2026-07-06
 draft: false
 slug: "diseno-web-para-notarias-en-guadalajara"
-description: "Diseño web para notarías en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Diseño web para notarías en Guadalajara: trámites claros, requisitos, citas en línea y una imagen seria que genere confianza en tus clientes."
 tags: ["diseño web", "notaría", "servicios profesionales", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/7876150/pexels-photo-7876150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

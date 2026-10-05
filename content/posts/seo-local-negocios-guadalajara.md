@@ -3,6 +3,7 @@ title: "SEO Local para Negocios en Guadalajara: Guía Completa"
 date: 2026-05-12
 draft: false
 slug: "seo-local-negocios-guadalajara"
+aliases: ["/posts/seo-local-para-negocios-en-guadalajara-guia-completa/"]
 description: "Aprende a posicionar tu negocio en Google Maps y búsquedas locales en Guadalajara. Guía paso a paso con ejemplos reales de PYMES en Jalisco."
 tags: ["SEO", "Guadalajara", "marketing digital", "Google"]
 author: "VonoaWeb"

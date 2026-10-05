@@ -3,7 +3,7 @@ title: "Tendencias de diseño web 2026 para negocios en México"
 date: 2026-07-08
 draft: false
 slug: "tendencias-de-diseno-web-2026-para-negocios-en-mexico"
-description: "Tendencias de diseño web 2026 para negocios en México. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Tendencias de diseño web 2026 para negocios en México: IA integrada, velocidad, diseño para celular y qué vale la pena aplicar en tu PYME."
 tags: ["diseño web", "tendencias", "México", "2026"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/15863066/pexels-photo-15863066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

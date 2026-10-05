@@ -3,7 +3,7 @@ title: "5 herramientas de IA gratuitas que toda PYME en Guadalajara debería usa
 date: 2026-06-17
 draft: false
 slug: "5-herramientas-de-ia-gratuitas-que-toda-pyme-en-guadalajara-deberia-us"
-description: "5 herramientas de IA gratuitas que toda PYME en Guadalajara debería usar. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "5 herramientas de inteligencia artificial gratuitas para PYMES en Guadalajara: atiende clientes, crea contenido y ahorra horas de trabajo cada semana."
 tags: ["IA", "herramientas", "PYMES", "Guadalajara"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/16094046/pexels-photo-16094046.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

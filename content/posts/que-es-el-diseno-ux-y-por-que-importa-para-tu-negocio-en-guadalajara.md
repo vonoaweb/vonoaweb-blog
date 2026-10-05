@@ -3,7 +3,7 @@ title: "Qué es el diseño UX y por qué importa para tu negocio en Guadalajara"
 date: 2026-09-14
 draft: false
 slug: "que-es-el-diseno-ux-y-por-que-importa-para-tu-negocio-en-guadalajara"
-description: "Qué es el diseño UX y por qué importa para tu negocio en Guadalajara. Guía completa para PYMES en Guadalajara por VonoaWeb."
+description: "Qué es el diseño UX, explicado sin tecnicismos, y cómo una buena experiencia de usuario convierte más visitas en clientes para tu negocio."
 tags: ["UX", "diseño web", "Guadalajara", "conversiones"]
 author: "VonoaWeb"
 image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
