@@ -121,4 +121,4 @@ Cuando un cliente busca activamente un producto, necesitas estar ahí.
 
 El Buen Fin premia a las tiendas que se preparan con tiempo: un sitio rápido, ofertas claras, campañas listas y una atención que no deje mensajes sin contestar. Si empiezas unas semanas antes, puedes corregir problemas sin la presión de la fecha.
 
-Si todavía no tienes tienda en línea, en VonoaWeb hacemos tiendas con WooCommerce desde $10,500 MXN en un solo pago, con pasarelas de pago y carga de hasta 10 productos. Revisa [precios](https://vonoaweb.com/precios.html), lee nuestra [guía paso a paso para tu tienda en línea](/posts/tienda-en-linea-para-pymes-en-guadalajara-guia-paso-a-paso/) o [escríbenos](https://vonoaweb.com/contacto.html).
+Si todavía no tienes tienda en línea, en VonoaWeb hacemos [tiendas con WooCommerce](https://vonoaweb.com/tienda-en-linea.html) desde $10,500 MXN en un solo pago, con pasarelas de pago y carga de hasta 10 productos. Revisa [precios](https://vonoaweb.com/precios.html), lee nuestra [guía paso a paso para tu tienda en línea](/posts/tienda-en-linea-para-pymes-en-guadalajara-guia-paso-a-paso/) o [escríbenos](https://vonoaweb.com/contacto.html).

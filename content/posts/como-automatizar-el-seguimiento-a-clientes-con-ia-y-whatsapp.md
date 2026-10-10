@@ -87,4 +87,4 @@ La agenda es apretada y las citas perdidas son un dolor de cabeza.
 
 El seguimiento es donde más ventas se pierden: el cliente pidió información, se le olvidó y nadie le volvió a escribir. Con IA y WhatsApp puedes automatizar esos recordatorios, confirmaciones y mensajes después de la venta sin perder el trato cercano.
 
-En VonoaWeb instalamos asistentes con IA para WhatsApp con seguimiento automático incluido. Revisa los planes en [precios](https://vonoaweb.com/precios.html), conoce la diferencia entre [WhatsApp Business y la API](/posts/whatsapp-business-api-vs-whatsapp-normal-que-conviene-para-tu-negocio/) o [platícanos](https://vonoaweb.com/contacto.html) tu caso.
+En VonoaWeb instalamos [asistentes con IA para WhatsApp](https://vonoaweb.com/chatbot-whatsapp-ia.html) con seguimiento automático incluido. Revisa los planes en [precios](https://vonoaweb.com/precios.html), conoce la diferencia entre [WhatsApp Business y la API](/posts/whatsapp-business-api-vs-whatsapp-normal-que-conviene-para-tu-negocio/) o [platícanos](https://vonoaweb.com/contacto.html) tu caso.

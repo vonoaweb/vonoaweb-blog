@@ -83,4 +83,4 @@ Un chatbot no vende más si responde con información incorrecta o si nadie revi
 
 La promesa de "triplicar ventas" depende de tu negocio, pero el mecanismo es claro: responder al instante, a cualquier hora, y no dejar que ningún interesado se enfríe. En WhatsApp, donde tus clientes ya están, eso marca una gran diferencia.
 
-En VonoaWeb instalamos asistentes con IA para WhatsApp y para tu página web desde $4,999 MXN más $2,999 al mes, con calificación de prospectos incluida. Revisa [precios](https://vonoaweb.com/precios.html), lee cómo [configurar respuestas automáticas](/posts/como-configurar-respuestas-automaticas-en-whatsapp-para-tu-negocio/) o [escríbenos](https://vonoaweb.com/contacto.html).
+En VonoaWeb instalamos [asistentes con IA para WhatsApp](https://vonoaweb.com/chatbot-whatsapp-ia.html) y para tu página web desde $4,999 MXN más $2,999 al mes, con calificación de prospectos incluida. Revisa [precios](https://vonoaweb.com/precios.html), lee cómo [configurar respuestas automáticas](/posts/como-configurar-respuestas-automaticas-en-whatsapp-para-tu-negocio/) o [escríbenos](https://vonoaweb.com/contacto.html).

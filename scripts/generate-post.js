@@ -299,7 +299,7 @@ REGLAS ESTRICTAS:
 - NO empieces párrafos con "Es importante", "Cabe destacar", "Sin duda alguna"
 - Si mencionas precios de VonoaWeb, usa SOLO estos (MXN, IVA no incluido; vigentes en https://vonoaweb.com/precios.html): páginas web en pago único desde $5,200 (Impulso), $7,400 (Presencia Pro) y $10,500 (tienda en línea); Asistente IA $4,999 de instalación + $2,999 al mes
 - NO inventes casos de clientes, nombres de negocios, testimonios ni porcentajes de resultados. Si das una estadística, que sea conocida y atribuida a su fuente (Google, INEGI, AMVO); si no la conoces con certeza, no la pongas
-- Enlaza en el texto, con Markdown, a la página de VonoaWeb que corresponda: [servicios](https://vonoaweb.com/servicios.html), [precios](https://vonoaweb.com/precios.html) o [portafolio](https://vonoaweb.com/portafolio.html)
+- Enlaza en el texto, con Markdown, a la página de VonoaWeb que corresponda: [servicios](https://vonoaweb.com/servicios.html), [precios](https://vonoaweb.com/precios.html), [portafolio](https://vonoaweb.com/portafolio.html), [chatbot con IA para WhatsApp](https://vonoaweb.com/chatbot-whatsapp-ia.html) o [tienda en línea](https://vonoaweb.com/tienda-en-linea.html)
 - Termina con una conclusión que invite a contactar a VonoaWeb en [vonoaweb.com/contacto.html](https://vonoaweb.com/contacto.html)
 - NO incluyas el título principal (H1), empieza directo con el contenido
 - Escribe en español de México natural (usa "tú", no "usted")

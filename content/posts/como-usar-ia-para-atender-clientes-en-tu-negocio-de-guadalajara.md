@@ -80,4 +80,4 @@ Guadalajara es una ciudad global. Recibimos turistas de todo el mundo y hacemos 
 
 La IA permite que tu negocio en Guadalajara conteste al instante, a cualquier hora y en el idioma del cliente, sin contratar más personal. Lo importante es darle información correcta y mantener siempre la opción de hablar con una persona.
 
-En VonoaWeb instalamos asistentes con IA para WhatsApp y para tu página web desde $4,999 MXN más $2,999 al mes. Revisa [precios](https://vonoaweb.com/precios.html), lee cómo [un chatbot con IA puede aumentar tus ventas por WhatsApp](/posts/como-un-chatbot-con-ia-puede-triplicar-tus-ventas-por-whatsapp/) o [escríbenos](https://vonoaweb.com/contacto.html).
+En VonoaWeb instalamos [asistentes con IA para WhatsApp](https://vonoaweb.com/chatbot-whatsapp-ia.html) y para tu página web desde $4,999 MXN más $2,999 al mes. Revisa [precios](https://vonoaweb.com/precios.html), lee cómo [un chatbot con IA puede aumentar tus ventas por WhatsApp](/posts/como-un-chatbot-con-ia-puede-triplicar-tus-ventas-por-whatsapp/) o [escríbenos](https://vonoaweb.com/contacto.html).

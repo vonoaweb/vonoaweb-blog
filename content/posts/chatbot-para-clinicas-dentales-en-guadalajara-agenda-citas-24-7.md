@@ -92,4 +92,4 @@ Un chatbot no sustituye a tu recepcionista: le quita las preguntas repetidas y l
 
 Si estás pensando en implementarlo, empieza por lo básico: agendar, confirmar y recordar citas, y responder precios y horarios. Después puedes sumar seguimiento a tratamientos y solicitud de reseñas.
 
-En VonoaWeb instalamos asistentes con IA para WhatsApp y para tu página web desde $4,999 MXN más $2,999 al mes. Revisa los planes en [precios](https://vonoaweb.com/precios.html), lee qué debe tener el [sitio web de una clínica dental](/posts/diseno-web-para-clinicas-dentales-en-guadalajara/) o [agenda una llamada](https://vonoaweb.com/contacto.html) con nosotros.
+En VonoaWeb instalamos [asistentes con IA para WhatsApp](https://vonoaweb.com/chatbot-whatsapp-ia.html) y para tu página web desde $4,999 MXN más $2,999 al mes. Revisa los planes en [precios](https://vonoaweb.com/precios.html), lee qué debe tener el [sitio web de una clínica dental](/posts/diseno-web-para-clinicas-dentales-en-guadalajara/) o [agenda una llamada](https://vonoaweb.com/contacto.html) con nosotros.

@@ -83,4 +83,4 @@ Haz compras de prueba con distintas formas de pago antes de abrir. Después del 
 
 Abrir una tienda en línea en Guadalajara es un proyecto alcanzable si lo haces por pasos: estrategia, plataforma, pagos, envíos, catálogo y medición. Empieza con pocos productos, asegúrate de que todo el proceso funcione y crece a partir de lo que vendes.
 
-En VonoaWeb hacemos tiendas con WooCommerce desde $10,500 MXN en un solo pago, con pasarelas de pago y carga de hasta 10 productos. Revisa [precios](https://vonoaweb.com/precios.html), lee [cuánto cuesta una tienda en línea](/posts/cuanto-cuesta-una-tienda-en-linea-en-guadalajara-en-2026/) o [escríbenos](https://vonoaweb.com/contacto.html).
+En VonoaWeb hacemos [tiendas con WooCommerce](https://vonoaweb.com/tienda-en-linea.html) desde $10,500 MXN en un solo pago, con pasarelas de pago y carga de hasta 10 productos. Revisa [precios](https://vonoaweb.com/precios.html), lee [cuánto cuesta una tienda en línea](/posts/cuanto-cuesta-una-tienda-en-linea-en-guadalajara-en-2026/) o [escríbenos](https://vonoaweb.com/contacto.html).

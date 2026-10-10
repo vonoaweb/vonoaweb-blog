@@ -94,4 +94,4 @@ Toma estas cifras como una referencia para hacer tus propias cuentas: el ahorro 
 
 Un agente de IA no reemplaza a tu equipo: le quita el trabajo repetitivo para que se dedique a vender y atender lo importante. Para una PYME en Guadalajara, el punto de partida más rentable suele ser la atención por WhatsApp, porque ahí llegan la mayoría de los clientes.
 
-En VonoaWeb instalamos asistentes con IA para WhatsApp y para la web desde $4,999 MXN de instalación más $2,999 al mes, con 200 conversaciones mensuales incluidas. Revisa los planes en [precios](https://vonoaweb.com/precios.html) o lee cómo [automatizar el seguimiento a clientes](/posts/como-automatizar-el-seguimiento-a-clientes-con-ia-y-whatsapp/).
+En VonoaWeb instalamos [asistentes con IA para WhatsApp](https://vonoaweb.com/chatbot-whatsapp-ia.html) y para la web desde $4,999 MXN de instalación más $2,999 al mes, con 200 conversaciones mensuales incluidas. Revisa los planes en [precios](https://vonoaweb.com/precios.html) o lee cómo [automatizar el seguimiento a clientes](/posts/como-automatizar-el-seguimiento-a-clientes-con-ia-y-whatsapp/).

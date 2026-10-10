@@ -71,4 +71,4 @@ La base para un e-commerce exitoso para tu PYME en Jalisco se resume en algunos 
 
 Vender en línea ya no es exclusivo de grandes marcas. Para una PYME en Guadalajara, una tienda en línea bien hecha amplía el horario de venta, llega a clientes de otras ciudades y reduce la dependencia del local físico. La clave es empezar con un catálogo pequeño, procesos de pago y envío que funcionen, y crecer a partir de lo que vendes.
 
-Si estás evaluando el costo, lee [cuánto cuesta una tienda en línea en Guadalajara](/posts/cuanto-cuesta-una-tienda-en-linea-en-guadalajara-en-2026/). En VonoaWeb hacemos tiendas con WooCommerce desde $10,500 MXN en un solo pago; revisa [precios](https://vonoaweb.com/precios.html) o [escríbenos](https://vonoaweb.com/contacto.html).
+Si estás evaluando el costo, lee [cuánto cuesta una tienda en línea en Guadalajara](/posts/cuanto-cuesta-una-tienda-en-linea-en-guadalajara-en-2026/). En VonoaWeb hacemos [tiendas con WooCommerce](https://vonoaweb.com/tienda-en-linea.html) desde $10,500 MXN en un solo pago; revisa [precios](https://vonoaweb.com/precios.html) o [escríbenos](https://vonoaweb.com/contacto.html).
