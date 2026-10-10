@@ -14,11 +14,14 @@
       {{ if .IsHome }}{{ $pages = where site.RegularPages "Section" "posts" }}{{ end }}
       {{ range $pages.ByDate.Reverse }}
       {{ if not .Params.draft }}
+      {{ $post := . }}
       <article class="post-card reveal">
         <a href="{{ .Permalink }}">
           {{ with .Params.image }}
           <div class="post-card-img">
-            <img src="{{ . | absURL }}" alt="{{ $.Params.imageAlt | default $.Title }}" loading="lazy" width="600" height="340">
+            {{/* $post y no $: dentro del range, $ es la pagina del listado y todas las
+                 imagenes salian con el mismo alt ("Blog VonoaWeb"). */}}
+            <img src="{{ . | absURL }}" alt="{{ $post.Params.imageAlt | default $post.Title }}" loading="lazy" width="600" height="340">
           </div>
           {{ end }}
           <div class="post-card-body">

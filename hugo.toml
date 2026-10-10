@@ -51,3 +51,16 @@ enableRobotsTXT = true
   [languages.es]
     locale = "es_MX"
     weight = 1
+
+# Articulos relacionados (single.html): por etiquetas en comun, incluyendo
+# articulos mas nuevos (Hugo, por defecto, solo sugiere los mas antiguos).
+[related]
+  includeNewer = true
+  threshold = 50
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10

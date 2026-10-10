@@ -26,7 +26,7 @@
 
   {{ with .Params.image }}
   <figure class="post-hero-img container-wide">
-    <img src="{{ . | absURL }}" alt="{{ $.Params.imageAlt | default $.Title }}" loading="eager" width="1200" height="630">
+    <img src="{{ . | absURL }}" alt="{{ $.Params.imageAlt | default $.Title }}" loading="eager" fetchpriority="high" width="1200" height="630">
     {{ with $.Params.imageCredit }}<figcaption>Foto: {{ . }}</figcaption>{{ end }}
   </figure>
   {{ end }}
@@ -46,6 +46,33 @@
       </div>
     </div>
   </div>
+
+  <!-- Articulos relacionados: por etiquetas en comun (config "related" de Hugo).
+       Enlazado interno para Google y para que el lector siga en el blog. -->
+  {{ $related := .Site.RegularPages.Related . | first 3 }}
+  {{ with $related }}
+  <section class="related-posts container">
+    <h2 class="related-title">Artículos relacionados</h2>
+    <div class="posts-grid">
+      {{ range . }}
+      {{ $post := . }}
+      <article class="post-card">
+        <a href="{{ .Permalink }}">
+          {{ with .Params.image }}
+          <div class="post-card-img">
+            <img src="{{ . | absURL }}" alt="{{ $post.Params.imageAlt | default $post.Title }}" loading="lazy" width="600" height="340">
+          </div>
+          {{ end }}
+          <div class="post-card-body">
+            <h3>{{ .Title }}</h3>
+            <span class="read-more">Leer artículo →</span>
+          </div>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
 
   <!-- Post navigation -->
   <nav class="post-nav container-narrow">
