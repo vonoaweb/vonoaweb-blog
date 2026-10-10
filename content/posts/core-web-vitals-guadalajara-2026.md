@@ -1,6 +1,7 @@
 ---
 title: "Core Web Vitals en Guadalajara: Por qué tu página lenta te está costando clientes (y cómo arreglarlo)"
 date: "2026-05-12"
+lastmod: 2026-10-10
 slug: "core-web-vitals-guadalajara-2026"
 description: "Descubre cómo pasar de una calificación roja a verde en Google PageSpeed. Datos reales de PYMES en Guadalajara y por qué cada segundo de carga cuenta en tus ventas."
 tags: ["Core Web Vitals", "PageSpeed", "SEO técnico", "Guadalajara", "PYMES", "rendimiento web"]
@@ -33,7 +34,7 @@ Mide cuánto tarda el elemento más grande visible (típicamente una imagen hero
 - 🟡 Necesita mejorar: 2.5 a 4.0 segundos
 - 🔴 Malo: más de 4.0 segundos
 
-**El caso real:** Un restaurante en Chapultepec tenía una foto de 3.2 MB como fondo de su hero. El LCP era de 6.1 segundos en 4G. Comprimimos la imagen a WebP de 180 KB, implementamos lazy loading y bajamos a 1.9 segundos. Su posición en Google para *"restaurantes cerca de mí"* subió 11 lugares en tres semanas.
+**Ejemplo:** una foto de 3 MB como fondo de la portada puede llevar el LCP a más de 6 segundos en un celular con 4G. Convertida a WebP de unos 200 KB, y con carga diferida en las imágenes de más abajo, esa misma portada puede bajar de los 2.5 segundos que Google considera buenos.
 
 ### INP (Interaction to Next Paint) — ¿Responde cuando toco?
 
@@ -59,7 +60,7 @@ Mide cuánto se desplazan los elementos visuales durante la carga. Es la métric
 
 ## ¿Por qué esto importa más en Guadalajara que en otros lados?
 
-Aquí hay un dato que muchos diseñadores ignoran: **el 68% del tráfico web en Jalisco proviene de dispositivos móviles**, y una parte significativa usa redes 4G compartidas o datos limitados.
+Aquí hay un dato que muchos diseñadores ignoran: **casi todas las personas que usan internet en México se conectan desde un celular** (INEGI, encuesta ENDUTIH), y muchas lo hacen con redes 4G saturadas o datos limitados.
 
 Un sitio que carga en 1.5 segundos en Wi-Fi de fibra óptica, puede tardar 6 segundos en un celular con dos barras de señal en Ciudad Granja.
 

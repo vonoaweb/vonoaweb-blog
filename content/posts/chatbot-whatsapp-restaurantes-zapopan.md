@@ -1,10 +1,11 @@
 ---
 title: "Chatbot WhatsApp para Restaurantes en Zapopan"
 date: 2026-05-10
+lastmod: 2026-10-10
 draft: false
 slug: "chatbot-whatsapp-restaurantes-zapopan"
 aliases: ["/posts/chatbot-whatsapp-para-restaurantes-en-zapopan/"]
-description: "Descubre cómo un chatbot de WhatsApp puede automatizar reservas y pedidos en tu restaurante de Zapopan. Caso real con resultados."
+description: "Descubre cómo un chatbot de WhatsApp puede automatizar reservas y pedidos en tu restaurante de Zapopan. Qué hace, cómo funciona y qué cambia en el día a día."
 tags: ["chatbot", "WhatsApp", "restaurantes", "Zapopan"]
 author: "VonoaWeb"
 image: "images/blog/chatbot-restaurante.jpg"
@@ -31,18 +32,18 @@ Es un asistente virtual que responde automáticamente los mensajes que llegan a 
 - Calificar leads para eventos privados
 - Reenviar casos complejos a un humano
 
-## Caso real: Restaurante en zona Chapalita
+## Ejemplo: un restaurante en Chapalita
 
-Un restaurante de cocina mexicana contemporánea en Chapalita implementó un chatbot con IA en noviembre 2025.
+Imagina un restaurante de cocina mexicana en Chapalita que hoy toma reservas solo por teléfono y en horario de servicio. Esto es lo que cambia con un chatbot en su WhatsApp:
 
-| Métrica | Antes | Después (3 meses) |
+| Situación | Sin chatbot | Con chatbot |
 |---|---|---|
-| Llamadas perdidas/día | 8 | 1-2 |
-| Reservas por WhatsApp | 4/semana | 32/semana |
-| Tiempo de respuesta | 2-4 horas | Menos de 30 segundos |
-| Clientes nuevos/mes | ~15 | ~47 |
+| Mensaje a las 11 de la noche | Se contesta al día siguiente, o nunca | Se responde en segundos y la reserva queda hecha |
+| Llamadas en hora pico | Muchas se pierden | El cliente reserva por WhatsApp sin esperar |
+| Pedidos para llevar | Se toman a mano, con errores | El bot toma el pedido completo y lo confirma |
+| Eventos privados | Se cotizan días después | El bot pide fecha, personas y presupuesto y te avisa |
 
-El dueño nos dijo algo revelador: la mayoría de esos clientes nuevos llegaron **fuera de horario de atención** — entre 10pm y 8am, cuando nadie contestaba el teléfono.
+Lo más valioso suele ser lo que pasa **fuera del horario de atención**: los mensajes que llegan de noche, cuando nadie contesta el teléfono, también se convierten en reservas.
 
 ## ¿Cómo funciona técnicamente?
 
