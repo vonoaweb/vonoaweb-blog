@@ -1,6 +1,7 @@
 ---
 title: "5 herramientas de IA gratuitas que toda PYME en Guadalajara debería usar"
 date: 2026-06-17
+lastmod: 2026-10-10
 draft: false
 slug: "5-herramientas-de-ia-gratuitas-que-toda-pyme-en-guadalajara-deberia-us"
 description: "5 herramientas de inteligencia artificial gratuitas para PYMES en Guadalajara: atiende clientes, crea contenido y ahorra horas de trabajo cada semana."
@@ -64,4 +65,33 @@ Google Business Profile (anteriormente Google My Business) es una herramienta gr
 Ser visible para los clientes locales es vital. Google Business Profile te permite:
 *   **Aparición en búsquedas locales:** Cuando alguien busca "farmacias cerca de la Glorieta Niños Héroes" o "restaurantes con terraza en Zapopan", tu negocio puede aparecer en los primeros resultados.
 *   **Gestión de reputación:** Responde a las reseñas de tus clientes. La IA de Google puede incluso sugerir respuestas rápidas para agilizar este proceso.
-*   **Información clave:** Muestra tu horario, dirección, número de teléfono
+
+## 4. Google Gemini
+
+### ¿Qué es y para qué sirve?
+
+Es el asistente de inteligencia artificial de Google. Se usa gratis con tu cuenta de Google y funciona parecido a ChatGPT: le escribes lo que necesitas y te responde.
+
+### ¿Cómo ayuda a tu PYME en Guadalajara?
+
+*   **Resumir y redactar:** pídele que resuma un documento largo o que te ayude a contestar un correo complicado.
+*   **Ideas para tu negocio:** promociones de temporada, nombres para un producto nuevo o preguntas frecuentes para tu página web.
+*   **Si ya usas Gmail y Google Drive,** te resultará natural tenerlo a la mano.
+
+## 5. CapCut (versión gratuita)
+
+### ¿Qué es y para qué sirve?
+
+Es un editor de video para celular y computadora con funciones automáticas, como subtítulos que se generan solos a partir del audio.
+
+### ¿Cómo ayuda a tu PYME en Guadalajara?
+
+*   **Videos para Reels y TikTok** sin contratar a un editor.
+*   **Subtítulos automáticos:** mucha gente ve los videos sin sonido, y con subtítulos tu mensaje igual llega.
+*   **Plantillas** para presentar productos, promociones o el antes y después de un trabajo.
+
+## Cómo empezar sin perder tiempo
+
+No intentes usar las cinco herramientas la misma semana. Elige la que resuelva tu problema más urgente: si te falta tiempo para redactar, empieza con ChatGPT o Gemini; si te cuesta publicar en redes, con Canva o CapCut; si no te encuentran en Google, con tu [perfil de Google Business](/posts/google-business-profile-la-herramienta-gratuita-que-tu-negocio-en-zapo/).
+
+Cuando estas herramientas gratuitas se te queden cortas, el siguiente paso es un asistente con IA que conteste a tus clientes por WhatsApp y en tu página web las 24 horas. En VonoaWeb lo instalamos desde $4,999 MXN más $2,999 al mes; consulta los detalles en [precios](https://vonoaweb.com/precios.html) o [platícanos](https://vonoaweb.com/contacto.html) qué necesitas.

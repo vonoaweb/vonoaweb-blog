@@ -1,6 +1,7 @@
 ---
 title: "Cómo configurar respuestas automáticas en WhatsApp para tu negocio"
 date: 2026-07-22
+lastmod: 2026-10-10
 draft: false
 slug: "como-configurar-respuestas-automaticas-en-whatsapp-para-tu-negocio"
 description: "Configura respuestas automáticas en WhatsApp Business: mensaje de bienvenida, ausencia y respuestas rápidas, y cuándo conviene pasar a un chatbot con IA."
@@ -70,4 +71,25 @@ Configurar estas herramientas es más sencillo de lo que parece. Solo necesitas 
 2.  **Ve a Herramientas para la empresa:** En Android, toca los tres puntos verticales en la esquina superior derecha y selecciona "Herramientas para la empresa". En iOS, ve a "Configuración" y luego "Herramientas para la empresa".
 3.  **Selecciona "Mensaje de bienvenida":** Activa la opción.
 4.  **Edita el mensaje:** Personaliza el texto para que refleje la voz de tu negocio.
-5.  **Define los destinatarios:** Puedes enviarlo a todos, a quienes no están en tu
+
+5.  **Guarda los cambios** y pruébalo escribiéndole a tu negocio desde otro número.
+
+### Respuestas rápidas
+
+Las respuestas rápidas son mensajes guardados que envías escribiendo una diagonal (/) y un atajo. Son ideales para lo que te preguntan todos los días:
+
+*   **/horario:** tus horarios de atención.
+*   **/ubicacion:** tu dirección con el enlace a Google Maps.
+*   **/precios:** tu lista de precios o el enlace a tu página.
+
+Se configuran en el mismo menú de herramientas para la empresa, en la opción de respuestas rápidas.
+
+## ¿Cuándo ya no es suficiente?
+
+Las respuestas automáticas de WhatsApp Business sirven para saludar, avisar que estás fuera de horario y contestar más rápido. Pero no entienden preguntas ni agendan citas. Si recibes muchos mensajes al día, si varias personas atienden el mismo número o si quieres responder a cualquier hora con información real, el siguiente paso es un chatbot con IA sobre la API de WhatsApp.
+
+## Conclusión
+
+Configurar mensajes de bienvenida, de ausencia y respuestas rápidas toma menos de una hora y mejora mucho la atención. Hazlo hoy mismo. Cuando el volumen de mensajes te rebase, revisa la diferencia entre [WhatsApp Business y la API](/posts/whatsapp-business-api-vs-whatsapp-normal-que-conviene-para-tu-negocio/).
+
+En VonoaWeb instalamos asistentes con IA para WhatsApp desde $4,999 MXN más $2,999 al mes. Consulta los planes en [precios](https://vonoaweb.com/precios.html) o [escríbenos](https://vonoaweb.com/contacto.html).

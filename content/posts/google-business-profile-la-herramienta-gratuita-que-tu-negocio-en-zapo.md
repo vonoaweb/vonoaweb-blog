@@ -1,6 +1,7 @@
 ---
 title: "Google Business Profile: la herramienta gratuita que tu negocio en Zapopan necesita"
 date: 2026-07-20
+lastmod: 2026-10-10
 draft: false
 slug: "google-business-profile-la-herramienta-gratuita-que-tu-negocio-en-zapo"
 description: "Cómo configurar y optimizar Google Business Profile gratis para tu negocio en Zapopan y aparecer en Google Maps y en búsquedas locales."
@@ -102,3 +103,25 @@ Ser proactivo aquí ahorra tiempo a tus clientes y les da la información que ne
 Google te permite agregar atributos a tu perfil. Estos pueden ser "Wi-Fi gratis", "accesible para sillas de ruedas", "solo con cita previa", "entrega a domicilio" o "opciones de comida para llevar". Cuanto más específico seas, más fácil será para los clientes encontrarte si buscan esas características.
 
 Si tienes un salón de belleza, puedes listar todos los servicios que ofreces, desde cortes de pelo hasta tratamientos faciales.
+
+### Horarios siempre actualizados
+
+Incluye horarios especiales en días festivos. Pocas cosas molestan más a un cliente que llegar y encontrar cerrado cuando Google decía abierto.
+
+### Fotos reales y recientes
+
+Sube fotos de tu fachada (para que te reconozcan al llegar), del interior, de tu equipo y de tus productos o trabajos. Actualízalas cada cierto tiempo.
+
+### Publicaciones
+
+Usa las publicaciones del perfil para anunciar promociones, novedades o eventos. Mantienen tu perfil activo y dan a los clientes una razón más para elegirte.
+
+### Reseñas y respuestas
+
+Pide reseñas de forma constante y contesta todas. Te explicamos cómo en [cómo conseguir reseñas en Google](/posts/como-conseguir-resenas-en-google-para-tu-negocio-en-zapopan/).
+
+## Conclusión
+
+Google Business Profile es gratuito y es, para muchos negocios en Zapopan, la principal forma en que los clientes los encuentran. Un perfil completo, verificado y con actividad constante puede traerte llamadas, visitas y mensajes sin pagar publicidad.
+
+Tu página web debe complementar tu perfil: mismos datos, más información y una forma clara de contactarte. En VonoaWeb hacemos [páginas web con SEO local](https://vonoaweb.com/servicios.html) desde $5,200 MXN en un solo pago. [Escríbenos](https://vonoaweb.com/contacto.html) y revisamos tu perfil y tu sitio.

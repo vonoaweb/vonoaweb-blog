@@ -1,6 +1,7 @@
 ---
 title: "Señales de que tu página web ya está obsoleta y te cuesta ventas"
 date: 2026-08-14
+lastmod: 2026-10-10
 draft: false
 slug: "senales-de-que-tu-pagina-web-ya-esta-obsoleta-y-te-cuesta-ventas"
 description: "Señales de que tu página web ya está obsoleta y te cuesta ventas: lentitud, mal diseño en celular, sin HTTPS y sin forma fácil de contactarte."
@@ -54,6 +55,12 @@ Imagina que alguien quiere conocer los horarios de tu restaurante en la Colonia 
 
 El contenido fresco y de valor es clave para el SEO y para mantener el interés de tus clientes. Si eres una consultoría en Guadalajara, un blog con artículos sobre tendencias de tu industria te posiciona como experto. Si eres una inmobiliaria, mantener tu listado de propiedades al día es crucial.
 
-### Ausencia de Llamadas a la Acción (CTAs) Claras
+### No tienes forma de medir resultados
 
-Una vez que un visitante llega
+Si no sabes cuántas personas visitan tu página, de dónde llegan ni cuántas te contactan, no puedes saber si tu sitio funciona. Herramientas gratuitas como Google Analytics y Google Search Console te dan esa información.
+
+## Conclusión
+
+Una página web obsoleta no siempre se nota a simple vista, pero se nota en las ventas: menos mensajes, visitantes que se van rápido y clientes que eligen a la competencia. Si reconoces dos o más de estas señales en tu sitio, es buen momento para actualizarlo.
+
+Lee [cuándo vale la pena un rediseño](/posts/rediseno-web-cuando-vale-la-pena-renovar-tu-sitio/) para decidir el siguiente paso. En VonoaWeb hacemos páginas web modernas desde $5,200 MXN en un solo pago; revisa [precios](https://vonoaweb.com/precios.html) o [escríbenos](https://vonoaweb.com/contacto.html).

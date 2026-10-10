@@ -1,6 +1,7 @@
 ---
 title: "Rediseño web: cuándo vale la pena renovar tu sitio"
 date: 2026-08-28
+lastmod: 2026-10-10
 draft: false
 slug: "rediseno-web-cuando-vale-la-pena-renovar-tu-sitio"
 description: "Cuándo vale la pena rediseñar tu página web: señales de que tu sitio frena ventas y cómo renovarlo sin perder tu posición en Google."
@@ -80,4 +81,18 @@ Un rediseño enfocado en la UX significa un sitio intuitivo, rápido y fácil de
 *   Mayor tiempo de permanencia en el sitio.
 *   Facilidad para encontrar información y realizar acciones deseadas.
 
-Una excelente UX es como tener al vendedor más amable
+## Cómo rediseñar sin perder tu posición en Google
+
+Un rediseño mal hecho puede borrar en semanas el posicionamiento que tardaste años en construir. Para evitarlo:
+
+1.  **Haz una lista de tus páginas actuales** y de cuáles reciben visitas desde Google.
+2.  **Conserva las direcciones (URLs)** de las páginas importantes siempre que puedas.
+3.  **Si una dirección cambia, configura una redirección 301** de la anterior a la nueva, para que Google y los visitantes lleguen al lugar correcto.
+4.  **Mantén los títulos y el contenido** que ya funcionan, mejorándolos en lugar de borrarlos.
+5.  **Después del lanzamiento, revisa Google Search Console** para detectar errores y enviar tu nuevo sitemap.
+
+## Conclusión
+
+Vale la pena rediseñar cuando tu sitio se ve anticuado, no funciona bien en celular, carga lento o ya no refleja lo que vendes. Hecho con cuidado, un rediseño mejora la imagen de tu negocio, la experiencia de tus clientes y tus resultados en Google al mismo tiempo.
+
+Revisa también las [señales de que tu página web ya está obsoleta](/posts/senales-de-que-tu-pagina-web-ya-esta-obsoleta-y-te-cuesta-ventas/). En VonoaWeb rediseñamos sitios cuidando su posicionamiento; revisa [precios](https://vonoaweb.com/precios.html) o [escríbenos](https://vonoaweb.com/contacto.html).

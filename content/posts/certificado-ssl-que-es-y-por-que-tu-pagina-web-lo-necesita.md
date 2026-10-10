@@ -1,6 +1,7 @@
 ---
 title: "Certificado SSL: qué es y por qué tu página web lo necesita"
 date: 2026-05-29
+lastmod: 2026-10-10
 draft: false
 slug: "certificado-ssl-que-es-y-por-que-tu-pagina-web-lo-necesita"
 description: "Qué es un certificado SSL (el candado HTTPS), por qué Google y tus clientes lo exigen y cómo saber si tu página web lo tiene bien instalado."
@@ -72,3 +73,17 @@ Aquí te mostramos una tabla comparativa para ayudarte a entender mejor las dife
 | **Tiempo de Emisión**  | Minutos a horas                        | Días                                        | Días a semanas                                 |
 | **Identificación**     | Solo HTTPS y candado                   | HTTPS, candado y nombre de organización     | HTTPS, candado y nombre de organización (más visible) |
 | **Costo Anual (MXN)**  | Desde $300 - $800                      | Desde $1,500 - $4,000                       | Desde $5,000 - $10,000                         |
+
+Estos rangos son de referencia y varían según el proveedor. Además, muchos hostings incluyen un certificado DV gratuito (por ejemplo, de Let's Encrypt), que es suficiente para la mayoría de las PYMES.
+
+## ¿Cómo saber si tu página ya tiene SSL?
+
+*   Abre tu sitio y revisa que la dirección empiece con **https://** y que aparezca el candado junto a ella.
+*   Si el navegador muestra "No seguro", tu sitio no tiene certificado o está mal instalado.
+*   Revisa también que **http://** redirija automáticamente a **https://**, para que nadie llegue a la versión insegura.
+
+## Conclusión
+
+El certificado SSL protege los datos de tus clientes, evita que el navegador marque tu sitio como inseguro y es una señal que Google toma en cuenta. Para un negocio que recibe formularios, pagos o datos personales, no es opcional.
+
+Todas las páginas que hacemos en VonoaWeb incluyen hosting, dominio y certificado SSL instalado desde el primer día. Si tu sitio actual marca "No seguro", [escríbenos](https://vonoaweb.com/contacto.html) y te ayudamos a resolverlo, o revisa [cómo elegir el mejor hosting](/posts/como-elegir-el-mejor-hosting-para-tu-pagina-web-en-mexico/).

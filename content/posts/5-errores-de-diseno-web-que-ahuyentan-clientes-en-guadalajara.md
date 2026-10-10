@@ -1,6 +1,7 @@
 ---
 title: "5 errores de diseño web que ahuyentan clientes en Guadalajara"
 date: 2026-08-17
+lastmod: 2026-10-10
 draft: false
 slug: "5-errores-de-diseno-web-que-ahuyentan-clientes-en-guadalajara"
 description: "Los 5 errores de diseño web que más clientes le cuestan a las PYMES de Guadalajara y cómo corregirlos: velocidad, celular, llamadas a la acción y confianza."
@@ -66,4 +67,25 @@ Un sitio web es la voz digital de tu negocio. Si esa voz es confusa, antigua o l
 *   **Errores comunes en el contenido:**
     *   **Información de contacto desactualizada:** Teléfonos que no funcionan, direcciones incorrectas, correos que nadie revisa.
     *   **Precios y servicios obsoletos:** Promociones que ya no existen, productos que ya no vendes.
-    *   **Textos con faltas
+
+## 4. No le dices al visitante qué hacer después
+
+Un sitio puede verse bien y aun así no generar un solo mensaje. Pasa cuando el visitante termina de leer y no encuentra un siguiente paso claro: no hay botón de WhatsApp a la vista, el formulario está escondido al final o pide demasiados datos.
+
+*   **Un botón principal por página:** "Cotiza por WhatsApp", "Agenda tu cita" o "Pide tu presupuesto". Uno, no cinco.
+*   **Visible desde el celular:** el botón debe aparecer sin tener que bajar hasta el pie de página.
+*   **Formularios cortos:** nombre, teléfono y qué necesita. Lo demás lo preguntas en la llamada.
+
+## 5. No hay señales de confianza
+
+Antes de escribirte, un cliente de Guadalajara quiere saber que eres un negocio real. Si tu sitio no lo demuestra, se va con quien sí lo hace.
+
+*   **Datos completos:** dirección, horario, teléfono y un mapa que funcione.
+*   **Reseñas y casos reales:** opiniones de Google, fotos de trabajos terminados y logos de clientes (con su permiso).
+*   **Candado HTTPS:** sin certificado SSL, el navegador marca tu sitio como "no seguro". Te lo explicamos en [qué es un certificado SSL](/posts/certificado-ssl-que-es-y-por-que-tu-pagina-web-lo-necesita/).
+
+## En resumen
+
+Los cinco errores tienen algo en común: obligan al cliente a esforzarse de más. Un sitio que no se ve bien en celular, que tarda en cargar, que tiene información vieja, que no dice qué hacer y que no inspira confianza pierde clientes en silencio, aunque reciba visitas.
+
+Revisa tu página con esta lista desde tu propio celular. Si encuentras dos o más de estos problemas, probablemente te convenga un [rediseño](/posts/rediseno-web-cuando-vale-la-pena-renovar-tu-sitio/). En VonoaWeb hacemos [páginas web para PYMES](https://vonoaweb.com/servicios.html) desde $5,200 MXN en un solo pago; [escríbenos](https://vonoaweb.com/contacto.html) y te decimos qué corregir primero.

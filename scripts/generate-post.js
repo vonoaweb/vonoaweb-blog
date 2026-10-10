@@ -257,6 +257,14 @@ async function geminiGenerate(prompt, maxTokens = 2500) {
             maxOutputTokens: maxTokens,
           },
         });
+        // gemini-2.5 "piensa" antes de responder y esos tokens cuentan contra
+        // maxOutputTokens: con un limite corto la respuesta sale vacia o cortada.
+        // Una respuesta cortada no se publica; se intenta con el siguiente modelo.
+        const finish = result.response.candidates?.[0]?.finishReason;
+        if (finish === 'MAX_TOKENS') {
+          console.log(`⚠️  ${modelName} se quedó sin tokens (respuesta cortada).`);
+          break;
+        }
         return result.response.text().trim();
       } catch (err) {
         const isRetryable = err.message?.includes('503') || err.message?.includes('429') || err.message?.includes('overloaded') || err.message?.includes('high demand');
@@ -298,7 +306,7 @@ REGLAS ESTRICTAS:
 - NO incluyas "Artículo escrito con IA" ni disclaimers
 - Que cada sección aporte valor real, no relleno`;
 
-  return geminiGenerate(prompt, 3000);
+  return geminiGenerate(prompt, 12000);
 }
 
 async function generateAltText(title) {
@@ -312,7 +320,7 @@ REGLAS:
 - Devuelve SOLO el texto, sin explicaciones ni prefijos
 Ejemplo: "Consultorio médico moderno con diseño web profesional en Guadalajara"`;
 
-  const result = (await geminiGenerate(prompt, 100)).replace(/"/g, '');
+  const result = (await geminiGenerate(prompt, 2048)).replace(/"/g, '');
   // Fallback si la respuesta es muy corta
   if (result.length < 30) return `${title} - VonoaWeb Guadalajara`;
   return result;
@@ -330,10 +338,13 @@ REGLAS:
 - Devuelve SOLO el texto de la meta description, nada más
 Ejemplo: "Descubre cómo el SEO local puede ayudar a tu negocio en Guadalajara a aparecer en Google. Guía completa con estrategias probadas."`;
 
-  const result = (await geminiGenerate(prompt, 80)).replace(/"/g, '');
+  const result = (await geminiGenerate(prompt, 2048)).replace(/"/g, '');
   // Fallback si la respuesta es muy corta
-  if (result.length < 50) return `${title}. Guía completa para PYMES en Guadalajara por VonoaWeb.`;
-  return result;
+  if (result.length >= 50) return result.length > 160 ? result.slice(0, 157).replace(/\s+\S*$/, '') + '...' : result;
+  // Respaldo: el primer parrafo del articulo, recortado a 155 caracteres
+  const firstPara = content.split('\n').find(l => l.trim() && !l.startsWith('#') && !l.startsWith('|') && !l.trim().startsWith('*')) || title;
+  const plain = firstPara.replace(/[*_`#>\[\]]/g, '').replace(/\(https?:[^)]*\)/g, '').replace(/"/g, '').trim();
+  return plain.length > 155 ? plain.slice(0, 152).replace(/\s+\S*$/, '') + '...' : plain;
 }
 
 // ── Main ─────────────────────────────────────────────
@@ -367,6 +378,14 @@ async function main() {
   ]);
 
   // Meta description depende del contenido
+  // Un articulo cortado o muy corto no se publica: es contenido de baja
+  // calidad para Google. Mejor no publicar ese dia que publicar a medias.
+  const words = content.split(/\s+/).length;
+  const lastChar = content.trim().slice(-1);
+  if (words < 700 || !'.!?)'.includes(lastChar)) {
+    throw new Error(`Artículo incompleto (${words} palabras, termina en "${content.trim().slice(-40)}"). No se publica.`);
+  }
+
   const description = await generateDescription(topic, content);
 
   const frontmatter = `---
@@ -389,7 +408,12 @@ ${content}
     fs.mkdirSync(CONTENT_DIR, { recursive: true });
   }
 
-  fs.writeFileSync(path.join(CONTENT_DIR, `${slug}.md`), frontmatter);
+  const outFile = path.join(CONTENT_DIR, `${slug}.md`);
+  if (fs.existsSync(outFile)) {
+    // Nunca reescribir un articulo publicado: cambiaria su contenido y su fecha.
+    throw new Error(`Ya existe ${slug}.md; no se sobrescribe.`);
+  }
+  fs.writeFileSync(outFile, frontmatter);
 
   console.log(`✅ Artículo generado: ${slug}.md`);
   console.log(`📝 Alt text: ${altText}`);

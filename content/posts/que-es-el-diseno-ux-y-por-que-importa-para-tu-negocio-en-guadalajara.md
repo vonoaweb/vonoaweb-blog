@@ -1,6 +1,7 @@
 ---
 title: "Qué es el diseño UX y por qué importa para tu negocio en Guadalajara"
 date: 2026-09-14
+lastmod: 2026-10-10
 draft: false
 slug: "que-es-el-diseno-ux-y-por-que-importa-para-tu-negocio-en-guadalajara"
 description: "Qué es el diseño UX, explicado sin tecnicismos, y cómo una buena experiencia de usuario convierte más visitas en clientes para tu negocio."
@@ -88,4 +89,15 @@ Una UI bien diseñada debe ser:
 
 *   **Estéticamente agradable:** Que refleje la personalidad de tu marca.
 *   **Coherente:** Que los elementos se vean y funcionen de manera similar en todo el sitio.
-*   **Jerárquica:** Que
+
+*   **Accesible:** que se pueda leer bien, con buen contraste y textos de tamaño adecuado, también para personas mayores o con alguna discapacidad.
+
+## Cómo saber si tu sitio tiene un buen UX
+
+Haz esta prueba sencilla: pide a alguien que no conozca tu negocio que, desde su celular, encuentre un servicio en tu página y te mande un mensaje. Observa sin ayudarle. Si duda, se pierde o tarda más de un minuto, hay oportunidades de mejora.
+
+## Conclusión
+
+El diseño UX es lo que hace que un visitante se convierta en cliente sin frustrarse en el camino. No se trata de que tu sitio se vea bonito, sino de que sea fácil de usar, rápido y claro. Para una PYME en Guadalajara, eso se traduce en más mensajes, más citas y más ventas con el mismo número de visitas.
+
+En VonoaWeb nuestro equipo tiene experiencia en diseño UX/UI para empresas como Grupo Urrea; puedes verlo en nuestro [portafolio](https://vonoaweb.com/portafolio.html). Revisa nuestros [servicios](https://vonoaweb.com/servicios.html) o [escríbenos](https://vonoaweb.com/contacto.html).
