@@ -55,3 +55,15 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    # Avisa a IndexNow (Bing; ChatGPT y Copilot buscan en su indice) de los
+    # articulos nuevos o cambiados. La llave esta en static/<llave>.txt.
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Avisar a IndexNow
+        run: python3 .github/indexnow.py blog "${{ github.event.before }}"
