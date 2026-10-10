@@ -99,6 +99,12 @@ const topics = [
   { topic: "Cómo vender por WhatsApp con catálogo y pagos en línea en México", tags: ["WhatsApp", "ventas", "e-commerce", "México"], imgQuery: "whatsapp shopping smartphone" },
   { topic: "Dominio .mx o .com: cuál conviene para tu negocio en México", tags: ["dominio", "diseño web", "México", "tutorial"], imgQuery: "domain name website browser" },
 
+  // --- Software a la medida (sin rentas) ---
+  { topic: "Software a la medida vs software de renta: qué le conviene a una PYME", tags: ["software a la medida", "PYMES", "costos", "comparativa"], imgQuery: "business software laptop office" },
+  { topic: "Sistema de inventario a la medida para negocios en Guadalajara", tags: ["software a la medida", "inventario", "Guadalajara", "PYMES"], imgQuery: "warehouse inventory tablet" },
+  { topic: "Cuánto cuesta un software a la medida en México y cómo se cotiza", tags: ["software a la medida", "precios", "México", "PYMES"], imgQuery: "software developer planning meeting" },
+  { topic: "Portal para clientes: cómo dejar de contestar '¿cómo va mi pedido?' por WhatsApp", tags: ["software a la medida", "atención al cliente", "WhatsApp", "PYMES"], imgQuery: "customer portal dashboard laptop" },
+
   // --- Más giros locales (diseño web por industria) ---
   { topic: "Página web para restaurantes en Guadalajara: qué debe tener para recibir más pedidos", tags: ["diseño web", "restaurantes", "Guadalajara", "PYMES"], imgQuery: "restaurant website menu phone" },
   { topic: "Diseño web para salones de belleza y estéticas en Guadalajara", tags: ["diseño web", "salud y belleza", "Guadalajara", "citas"], imgQuery: "beauty salon reception" },
@@ -297,10 +303,10 @@ REGLAS ESTRICTAS:
 - Incluye al menos una tabla comparativa si aplica al tema
 - NO uses frases genéricas como "en el mundo digital actual", "en la era de la tecnología", "en el competitivo mundo de"
 - NO empieces párrafos con "Es importante", "Cabe destacar", "Sin duda alguna"
-- Si mencionas precios de VonoaWeb, usa SOLO estos (MXN, IVA no incluido; vigentes en https://vonoaweb.com/precios.html): páginas web en pago único desde $5,200 (Impulso), $7,400 (Presencia Pro) y $10,500 (tienda en línea); Asistente IA $4,999 de instalación + $2,999 al mes
+- Si mencionas precios de VonoaWeb, usa SOLO estos (MXN, IVA no incluido; vigentes en https://vonoaweb.com/precios.html): páginas web en pago único desde $5,200 (Impulso), $7,400 (Presencia Pro) y $10,500 (tienda en línea); Asistente IA $4,999 de instalación + $2,999 al mes; software a la medida: cotización personalizada, se paga una sola vez y el código es del cliente, sin rentas mensuales ni licencias por usuario (no des un precio)
 - NO inventes casos de clientes, nombres de negocios, testimonios ni porcentajes de resultados. Si das una estadística, que sea conocida y atribuida a su fuente (Google, INEGI, AMVO); si no la conoces con certeza, no la pongas
-- Enlaza en el texto, con Markdown, a la página de VonoaWeb que corresponda: [servicios](https://vonoaweb.com/servicios.html), [precios](https://vonoaweb.com/precios.html), [portafolio](https://vonoaweb.com/portafolio.html), [chatbot con IA para WhatsApp](https://vonoaweb.com/chatbot-whatsapp-ia.html) o [tienda en línea](https://vonoaweb.com/tienda-en-linea.html)
-- Termina con una conclusión que invite a contactar a VonoaWeb en [vonoaweb.com/contacto.html](https://vonoaweb.com/contacto.html)
+- Enlaza en el texto, con Markdown, a la página de VonoaWeb que corresponda: [servicios](https://vonoaweb.com/servicios.html), [precios](https://vonoaweb.com/precios.html), [portafolio](https://vonoaweb.com/portafolio.html), [chatbot con IA para WhatsApp](https://vonoaweb.com/chatbot-whatsapp-ia.html), [tienda en línea](https://vonoaweb.com/tienda-en-linea.html) o [software a la medida](https://vonoaweb.com/software-a-la-medida.html)
+- Termina con una conclusión que invite a pedir una [maqueta gratis](https://vonoaweb.com/maqueta-gratis.html) de su página o a contactar a VonoaWeb en [vonoaweb.com/contacto.html](https://vonoaweb.com/contacto.html)
 - NO incluyas el título principal (H1), empieza directo con el contenido
 - Escribe en español de México natural (usa "tú", no "usted")
 - NO incluyas "Artículo escrito con IA" ni disclaimers
