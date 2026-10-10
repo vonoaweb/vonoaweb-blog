@@ -28,13 +28,13 @@ La elección de la plataforma es uno de los factores más importantes. Cada una 
 
 *   **Shopify:** Es una plataforma "todo en uno" muy popular por su facilidad de uso y escalabilidad. Incluye hosting, seguridad y actualizaciones.
     *   *Ventaja:* Ideal para quien busca empezar rápido con un sistema robusto y sin complicaciones técnicas.
-    *   *Costo:* Requiere una suscripción mensual (desde $500 MXN hasta $6,000 MXN o más, dependiendo del plan) y un costo inicial por la configuración y diseño.
+    *   *Costo:* suscripción mensual en dólares: el plan Basic cuesta USD 14 al mes con pago anual (USD 19 si pagas mes a mes) y el Advanced, USD 299. Además cobra una comisión por cada pago con tarjeta, desde 3.5 % + $3 MXN en el plan Basic (shopify.com/mx/precios, octubre de 2026). A eso súmale la configuración y el diseño.
 *   **WooCommerce (para WordPress):** Es un plugin de código abierto que convierte tu sitio de WordPress en una tienda en línea. Ofrece una flexibilidad increíble para personalizar.
     *   *Ventaja:* Gran control sobre el diseño y las funcionalidades, sin cuotas mensuales de plataforma (solo hosting y dominio).
     *   *Costo:* Necesitas pagar hosting, dominio y la inversión inicial en desarrollo puede ser mayor por la personalización.
 *   **Tienda Nube:** Una plataforma latinoamericana que ha ganado terreno en México. Es más sencilla de usar que WooCommerce y más económica que Shopify en algunos planes.
     *   *Ventaja:* Planes accesibles y soporte localizado, ideal para PYMES que buscan una solución práctica.
-    *   *Costo:* Suscripción mensual (desde $150 MXN hasta $2,500 MXN o más) más el costo de implementación.
+    *   *Costo:* tiene un plan gratis, y los de pago van de $149 a $999 MXN al mes (tiendanube.com/mx, octubre de 2026), más el costo de implementación si contratas a alguien que la arme.
 *   **Desarrollo a Medida:** Si tu negocio tiene necesidades muy específicas o un volumen de ventas muy alto, una solución programada desde cero puede ser la opción.
     *   *Ventaja:* Control total, escalabilidad ilimitada y funcionalidades únicas.
     *   *Costo:* La inversión inicial es significativamente más alta y requiere mantenimiento especializado.
