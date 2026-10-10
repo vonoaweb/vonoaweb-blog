@@ -1,10 +1,11 @@
 ---
 title: "Cuánto Cuesta una Página Web en Guadalajara en 2026"
 date: 2026-05-08
+lastmod: 2026-10-10
 draft: false
 slug: "cuanto-cuesta-pagina-web-guadalajara-2026"
 aliases: ["/posts/cuanto-cuesta-una-pagina-web-en-guadalajara-en-2026/"]
-description: "Guía de precios actualizada para diseño web en Guadalajara. Compara costos de freelancers, agencias y plataformas DIY para PYMES en Jalisco."
+description: "Cuánto cuesta una página web en Guadalajara en 2026: precios publicados por agencias, por Wix y por VonoaWeb, más los costos que nadie te dice."
 tags: ["diseño web", "precios", "Guadalajara", "PYMES"]
 author: "VonoaWeb"
 image: "images/blog/diseno-web-guadalajara.jpg"
@@ -14,51 +15,51 @@ imageCredit: "Fotis Fotopoulos / Unsplash"
 
 ## La pregunta del millón (o de los $5,200)
 
-Es la primera pregunta que nos hacen todos los dueños de negocio en Guadalajara: **"¿Cuánto me va a costar mi página web?"** La respuesta honesta es: depende. Pero no te preocupes — aquí te doy números reales del mercado de Guadalajara en 2026.
+Es la primera pregunta que nos hacen todos los dueños de negocio en Guadalajara: **"¿Cuánto me va a costar mi página web?"** La respuesta honesta es: depende. Pero no te preocupes — aquí te damos precios reales: los que publican en sus sitios las agencias que atienden Guadalajara.
 
-## Rangos de precios en Guadalajara (2026)
+## Precios publicados en Guadalajara (octubre 2026)
 
-| Tipo de proveedor | Rango de precio | Tiempo de entrega | Incluye |
-|---|---|---|---|
-| **Plataforma DIY** (Wix, Squarespace) | $200-500 MXN/mes | Tú lo haces | Plantilla, hosting |
-| **Freelancer Jr** | $3,000-8,000 MXN | 2-4 semanas | Diseño básico, responsivo |
-| **Freelancer Sr / Estudio** | $8,000-25,000 MXN | 3-6 semanas | Diseño custom, SEO básico |
-| **Agencia con IA** (VonoaWeb) | $5,200-18,000 MXN | 7-14 días | Diseño + Chatbot IA + SEO |
-| **Agencia grande** | $30,000-120,000+ MXN | 6-12 semanas | Branding completo, estrategia |
+Para no darte rangos al aire, revisamos los precios que publican en sus propios sitios cinco agencias que atienden Guadalajara, la plataforma más usada para hacerla tú mismo y los nuestros. Los consultamos el 10 de octubre de 2026; pueden cambiar.
 
-Estos precios son para sitios informativos de 4-8 páginas. E-commerce y sistemas a medida son otra historia.
+| Opción | Página sencilla | Sitio más completo | Tienda en línea | Cómo se paga |
+|---|---|---|---|---|
+| **Hacerla tú mismo** (Wix) | Desde $125 MXN al mes | — | Desde $230 MXN al mes (primer plan que acepta pagos) | Suscripción anual, impuestos aparte |
+| **Agencias que publican precios** (5 consultadas) | De $4,500 a $9,200 MXN | De $8,500 a $16,500 MXN | De $9,900 a $26,500 MXN | Pago único |
+| **VonoaWeb** | $5,200 MXN (hasta 3 secciones) | $7,400 MXN (hasta 6 secciones) | $10,500 MXN | Pago único, IVA no incluido |
+
+Lo que más mueve el precio es cuántas secciones lleva el sitio, si vende en línea y qué tanto queda incluido: algunas agencias suman el dominio y el hosting del primer año, y otras los cobran aparte. Antes de comparar, pregunta qué incluye cada cotización.
 
 ## ¿Por qué tanta variación?
 
-La diferencia de precio no es solo por "calidad" — son modelos de negocio distintos.
+La diferencia de precio no es solo por "calidad": son modelos de negocio distintos.
 
-### El freelancer de $3,000
+### El freelancer más barato
 
-Generalmente es alguien que usa WordPress con un theme premium ($60 USD) y lo adapta. No está mal para empezar, pero:
+Generalmente es alguien que usa WordPress con un tema premium y lo adapta. No está mal para empezar, pero:
 
-- El soporte post-entrega suele ser limitado
+- El soporte después de la entrega suele ser limitado
 - Las actualizaciones de WordPress pueden romper cosas
 - No incluye optimización de velocidad ni SEO serio
 
-### La agencia de $80,000
+### La agencia grande
 
-Tienen oficina en Providencia, equipo de 15 personas, y un proceso que incluye discovery, wireframes, 3 rondas de revisión y un PDF de estrategia de 40 páginas. Si eres una empresa mediana con presupuesto, tiene sentido. Si eres una PYME que necesita empezar a vender, probablemente no.
+Equipos grandes, con investigación, wireframes, varias rondas de revisión y un documento de estrategia. Cotizan por proyecto y suelen quedar muy por encima de los precios de la tabla. Si eres una empresa mediana con presupuesto, tiene sentido. Si eres una PYME que necesita empezar a vender, probablemente no.
 
 ## Los costos ocultos que nadie te dice
 
 El precio de la página es solo el inicio. Esto es lo que muchos olvidan presupuestar:
 
-- **Dominio:** $250-400 MXN/año (.com.mx o .com)
-- **Hosting:** $600-3,000 MXN/año (dependiendo del tipo)
-- **SSL (candado verde):** Gratis con Let's Encrypt, pero algunos hosting te cobran $800-1,500 MXN/año
-- **Mantenimiento:** $500-2,000 MXN/mes si usas WordPress
-- **Google Workspace (email profesional):** $140 MXN/usuario/mes
+- **Dominio:** se renueva cada año. En Akky, un .com.mx cuesta $249 MXN y un .com $347 MXN al año, IVA incluido (septiembre de 2026).
+- **Hosting:** también se paga cada año, y el precio cambia mucho según el proveedor y el tipo de servidor. Pregunta si tu cotización ya lo incluye.
+- **Certificado SSL (el candado):** es gratis con Let's Encrypt. Desconfía si te lo quieren cobrar aparte.
+- **Mantenimiento:** algunas agencias lo cobran como mensualidad; en las que consultamos va de $1,200 a $1,900 MXN al mes.
+- **Correo con tu dominio** (Google Workspace): $140 MXN por usuario al mes en el plan Starter con compromiso anual (octubre de 2026).
 
 ### Un tip que te puede ahorrar dinero
 
 Si tu sitio es informativo (no necesitas e-commerce), considera un **sitio estático**. No necesita servidor costoso, no tiene problemas de seguridad de WordPress, y los tiempos de carga son brutalmente rápidos.
 
-En VonoaWeb construimos sitios estáticos que alcanzan **98/100 en PageSpeed** — eso no solo mejora la experiencia del usuario, sino que Google te posiciona mejor.
+Nuestro propio sitio, vonoaweb.com, es estático y saca entre **97 y 99 de 100** en la prueba de velocidad de Google para celular (Lighthouse, octubre de 2026). La velocidad mejora la experiencia de quien te visita y es una de las señales que Google toma en cuenta.
 
 ## ¿Qué debe incluir tu página web en 2026?
 
@@ -112,6 +113,8 @@ Ya no basta con "tener presencia en internet". Esto es lo mínimo que debe tener
 
 Un sitio web bien hecho no es un gasto — es una inversión. Si tu página te genera **2-3 clientes nuevos al mes** que no habrías conseguido de otra forma, se paga sola en el primer mes.
 
-Lo hemos visto una y otra vez con negocios en Guadalajara: el restaurante que recibe reservas a medianoche, el consultorio dental que llena su agenda sin pagar publicidad, la tienda que vende mientras el dueño duerme.
+Eso es lo que debe hacer una buena página: recibir reservas a medianoche, llenar la agenda sin depender solo de la publicidad y vender mientras el dueño duerme.
 
 La pregunta no es si necesitas un sitio web. Es cuánto te está costando no tener uno bueno.
+
+Revisa los [precios de VonoaWeb](https://vonoaweb.com/precios.html#cuanto-cuesta) o pide una [maqueta gratis](https://vonoaweb.com/maqueta-gratis.html) para ver cómo se vería la página de tu negocio antes de pagar.
