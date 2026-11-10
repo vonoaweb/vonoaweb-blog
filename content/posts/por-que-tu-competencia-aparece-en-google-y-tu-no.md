@@ -94,3 +94,5 @@ Usar estas frases clave te ayuda a conectar con la intención de búsqueda local
 Tu competencia no aparece en Google por suerte: aparece porque tiene un sitio que Google entiende, un perfil local completo, reseñas constantes y contenido útil. La buena noticia es que todo eso se puede construir, y en búsquedas locales los resultados suelen notarse antes que en búsquedas nacionales.
 
 Para el plan completo, lee nuestra [guía de SEO local en Guadalajara](/posts/seo-local-negocios-guadalajara/). Si quieres que revisemos por qué tu competencia aparece y tú no, [escríbenos](https://vonoaweb.com/contacto.html) o conoce nuestros [servicios](https://vonoaweb.com/servicios.html).
+
+**Servicio relacionado:** [SEO local y marketing digital en Guadalajara](https://vonoaweb.com/seo-local-guadalajara.html): qué incluye, cuánto cuesta y en cuánto tiempo se ven resultados.

@@ -95,3 +95,5 @@ Agradece las positivas y contesta las negativas con calma y una solución. Quien
 Las reseñas son una de las señales que más pesan para aparecer en el mapa de Google en Zapopan, y además convencen a los clientes que te están comparando. La clave es pedirlas de forma constante, no una vez al año.
 
 Si quieres ahorrar tiempo contestándolas, lee cómo [usar IA para responder reseñas](/posts/ia-para-responder-resenas-de-google-automaticamente/). Y si tu página web todavía no muestra tus reseñas ni ayuda a tu posicionamiento local, en VonoaWeb podemos ayudarte: revisa nuestros [servicios](https://vonoaweb.com/servicios.html) o [escríbenos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [SEO local y marketing digital en Guadalajara](https://vonoaweb.com/seo-local-guadalajara.html): qué incluye, cuánto cuesta y en cuánto tiempo se ven resultados.

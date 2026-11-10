@@ -129,3 +129,5 @@ Con estas piezas puedes armar un flujo completo:
 Automatizar tus cotizaciones no significa perder el trato personal: significa que el cliente recibe su precio en minutos y tú dedicas tu tiempo a cerrar la venta en lugar de llenar formatos. Empieza con los servicios que más te cotizan y deja los casos especiales para atenderlos a mano.
 
 En VonoaWeb conectamos tu página web, tu WhatsApp y tus cotizaciones en un solo flujo. Nuestros planes con automatización empiezan en $5,999 MXN de instalación más $3,999 al mes; consulta los detalles en [precios](https://vonoaweb.com/precios.html). También te puede interesar [cómo conectar tu página web con WhatsApp y un CRM](/posts/como-conectar-tu-pagina-web-con-whatsapp-y-un-crm-automaticamente/).
+
+**Servicio relacionado:** [Automatización de procesos para PYMES](https://vonoaweb.com/automatizacion-de-procesos.html): ejemplos, precio por automatización y preguntas frecuentes.

@@ -75,3 +75,5 @@ Veamos cómo esto se traduce en ejemplos concretos para negocios de nuestra regi
 Un CRM con IA ayuda a un pequeño negocio en Guadalajara a no perder prospectos, a recordar qué compró cada cliente y a saber a quién darle seguimiento hoy. No necesitas implementarlo todo de golpe: con registrar cada contacto y automatizar el primer seguimiento ya verás la diferencia.
 
 En VonoaWeb conectamos tu página web y tu WhatsApp con tu CRM en nuestros planes con automatización. Revisa [precios](https://vonoaweb.com/precios.html), lee [cómo conectar tu web con WhatsApp y un CRM](/posts/como-conectar-tu-pagina-web-con-whatsapp-y-un-crm-automaticamente/) o [escríbenos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [Automatización de procesos para PYMES](https://vonoaweb.com/automatizacion-de-procesos.html): ejemplos, precio por automatización y preguntas frecuentes.

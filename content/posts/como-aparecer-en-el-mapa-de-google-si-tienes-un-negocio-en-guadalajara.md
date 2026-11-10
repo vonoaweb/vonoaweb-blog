@@ -117,3 +117,5 @@ Aparecer en el mapa de Google no depende de un truco: depende de tener un perfil
 Empieza por lo que puedes hacer hoy: verifica tu perfil, revisa que tu nombre, dirección y teléfono sean iguales en todas partes, y pide una reseña a tus últimos cinco clientes satisfechos. Te explicamos cómo en [cómo conseguir reseñas en Google](/posts/como-conseguir-resenas-en-google-para-tu-negocio-en-zapopan/).
 
 Si quieres que tu página web refuerce tu posicionamiento local, en VonoaWeb hacemos [sitios con SEO local para PYMES](https://vonoaweb.com/servicios.html) en Guadalajara y Zapopan. [Escríbenos](https://vonoaweb.com/contacto.html) y revisamos tu caso.
+
+**Servicio relacionado:** [SEO local y marketing digital en Guadalajara](https://vonoaweb.com/seo-local-guadalajara.html): qué incluye, cuánto cuesta y en cuánto tiempo se ven resultados.
