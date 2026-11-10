@@ -95,3 +95,5 @@ Entre 5 y 7 días hábiles. Eso incluye entrenamiento, pruebas y ajustes.
 Si tienes un restaurante en Zapopan, Guadalajara, Tlaquepaque o cualquier parte de Jalisco y estás perdiendo clientes por no contestar a tiempo, un chatbot de WhatsApp puede ser la inversión más rentable que hagas este año.
 
 No tienes que automatizar todo de golpe. Empieza con lo básico — reservas y preguntas frecuentes — y ve creciendo desde ahí.
+
+**Servicio relacionado:** [Páginas web para restaurantes en Guadalajara](https://vonoaweb.com/paginas-web-para-restaurantes.html): qué debe tener, planes y preguntas frecuentes.

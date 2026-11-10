@@ -101,3 +101,5 @@ Publicar respuestas claras a las preguntas que te hacen en consulta (qué es un 
 La página web de un consultorio en Guadalajara debe responder rápido tres preguntas: quién eres (especialidad, cédula y experiencia), dónde estás y cómo agendar. Si además aparece bien en Google Maps y tiene reseñas de pacientes, se convierte en tu mejor recomendación.
 
 En VonoaWeb hacemos páginas web para médicos y consultorios desde $5,200 MXN en un solo pago, con opción de agenda en línea y asistente por WhatsApp. Revisa [precios](https://vonoaweb.com/precios.html), lee cómo [automatizar el agendamiento de citas](/posts/como-automatizar-el-agendamiento-de-citas-en-tu-negocio-sin-contratar-/) o [escríbenos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [Páginas web para médicos y consultorios en Guadalajara](https://vonoaweb.com/paginas-web-para-medicos.html): qué debe tener, planes y preguntas frecuentes.

@@ -149,3 +149,5 @@ Una página web no es un gasto, es una inversión inteligente que te permite com
 En VonoaWeb, somos expertos en diseño web y marketing digital para PYMES en Guadalajara y Zapopan. Entendemos las necesidades de los restaurantes locales. Queremos ayudarte a construir esa presencia digital que tu negocio merece.
 
 ¿Estás listo para llevar tu restaurante al siguiente nivel? Te invitamos a solicitar una [maqueta gratis](https://vonoaweb.com/maqueta-gratis.html) de tu futura página web. Así podrás ver cómo luciría tu restaurante en línea sin ningún compromiso. O si prefieres, [contáctanos](https://vonoaweb.com/contacto.html) hoy mismo en vonoaweb.com/contacto.html para platicar sobre tus ideas y necesidades.
+
+**Servicio relacionado:** [Páginas web para restaurantes en Guadalajara](https://vonoaweb.com/paginas-web-para-restaurantes.html): qué debe tener, planes y preguntas frecuentes.

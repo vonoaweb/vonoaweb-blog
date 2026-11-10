@@ -94,3 +94,5 @@ El marketing digital de un restaurante en Guadalajara funciona mejor cuando toda
 Si recibes muchos mensajes para reservar o preguntar por el menú, un chatbot puede contestarlos por ti. Te lo explicamos en [chatbot de WhatsApp para restaurantes](/posts/chatbot-whatsapp-restaurantes-zapopan/).
 
 En VonoaWeb hacemos páginas web para restaurantes desde $5,200 MXN en un solo pago. Revisa [precios](https://vonoaweb.com/precios.html) o [escríbenos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [SEO local y marketing digital en Guadalajara](https://vonoaweb.com/seo-local-guadalajara.html) · [Páginas web para restaurantes en Guadalajara](https://vonoaweb.com/paginas-web-para-restaurantes.html)

@@ -76,3 +76,5 @@ El sitio web de una clínica dental en Guadalajara tiene dos trabajos: generar c
 Revisa tu sitio actual con esa idea: ¿un paciente nuevo puede saber en 30 segundos qué tratamientos ofreces, dónde estás y cómo agendar?
 
 En VonoaWeb hacemos páginas web para clínicas y consultorios desde $5,200 MXN en un solo pago, y podemos sumar un asistente con IA que agende citas por WhatsApp. Lee sobre el [chatbot para clínicas dentales](/posts/chatbot-para-clinicas-dentales-en-guadalajara-agenda-citas-24-7/), revisa [precios](https://vonoaweb.com/precios.html) o [escríbenos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [Páginas web para dentistas en Guadalajara](https://vonoaweb.com/paginas-web-para-dentistas.html): qué debe tener, planes y preguntas frecuentes.

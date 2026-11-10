@@ -113,3 +113,5 @@ Si nunca has automatizado nada, no empieces por el proceso más complejo. Empiez
 La automatización no es solo para empresas grandes. Para una PYME en Jalisco, automatizar dos o tres procesos repetitivos —cotizaciones, seguimiento a clientes, agenda— puede liberar horas cada semana que hoy se van en copiar y pegar.
 
 En VonoaWeb diseñamos estas automatizaciones conectadas a tu página web y a WhatsApp. Puedes ver ejemplos en [cómo automatizar cotizaciones](/posts/automatizar-cotizaciones-ahorra-10-horas-a-la-semana-en-tu-negocio/) y los planes con automatización incluida en [precios](https://vonoaweb.com/precios.html). Si quieres saber qué proceso te conviene automatizar primero, [platícanos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [Automatización de procesos para PYMES](https://vonoaweb.com/automatizacion-de-procesos.html): ejemplos, precio por automatización y preguntas frecuentes.

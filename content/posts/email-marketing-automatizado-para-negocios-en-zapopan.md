@@ -104,3 +104,5 @@ El email marketing automatizado te permite mantener contacto con tus clientes de
 Recuerda pedir siempre permiso para enviar correos y dar una forma fácil de darse de baja.
 
 En VonoaWeb conectamos los formularios de tu página web con tus herramientas de correo y CRM. Revisa los planes con automatización en [precios](https://vonoaweb.com/precios.html), lee cómo [automatizar el seguimiento a clientes](/posts/como-automatizar-el-seguimiento-a-clientes-con-ia-y-whatsapp/) o [escríbenos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [Automatización de procesos para PYMES](https://vonoaweb.com/automatizacion-de-procesos.html): ejemplos, precio por automatización y preguntas frecuentes.

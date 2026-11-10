@@ -106,3 +106,5 @@ Un buen orden para empezar:
 4.  Cuando lo anterior esté listo, prueba campañas pequeñas con segmentación por zona.
 
 Para profundizar, lee nuestra [guía de SEO local en Guadalajara](/posts/seo-local-negocios-guadalajara/). Y si quieres una página preparada para búsquedas locales, revisa nuestros [servicios](https://vonoaweb.com/servicios.html) o [escríbenos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [SEO local y marketing digital en Guadalajara](https://vonoaweb.com/seo-local-guadalajara.html): qué incluye, cuánto cuesta y en cuánto tiempo se ven resultados.

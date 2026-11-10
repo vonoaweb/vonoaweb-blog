@@ -100,3 +100,5 @@ Si tus herramientas no se conectan directamente, un integrador como Zapier o Mak
 Conectar tu página web con WhatsApp y un CRM evita que los prospectos se queden en un chat o en una bandeja de correo que nadie revisa. Cada contacto queda registrado, recibe respuesta inmediata y tiene seguimiento.
 
 En VonoaWeb hacemos esa integración como parte de nuestros planes con automatización. Consulta los detalles en [precios](https://vonoaweb.com/precios.html), lee sobre [CRM con IA para pequeños negocios](/posts/crm-con-ia-para-pequenos-negocios-en-guadalajara/) o [escríbenos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [Automatización de procesos para PYMES](https://vonoaweb.com/automatizacion-de-procesos.html): ejemplos, precio por automatización y preguntas frecuentes.

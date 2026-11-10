@@ -82,3 +82,5 @@ En México, WhatsApp es el rey de la comunicación. Implementar un chatbot simpl
 Automatizar tu agenda no es contratar a otra recepcionista: es dejar que tus clientes reserven solos, a cualquier hora, mientras tú atiendes a los que ya están en tu negocio. Para consultorios, estéticas, talleres o despachos en Guadalajara, suele ser una de las automatizaciones que más rápido se nota.
 
 En VonoaWeb conectamos tu página web y tu WhatsApp con un calendario y recordatorios automáticos. Consulta los planes en [precios](https://vonoaweb.com/precios.html), lee cómo [automatizar el seguimiento a clientes](/posts/como-automatizar-el-seguimiento-a-clientes-con-ia-y-whatsapp/) o [escríbenos](https://vonoaweb.com/contacto.html).
+
+**Servicio relacionado:** [Automatización de procesos para PYMES](https://vonoaweb.com/automatizacion-de-procesos.html): ejemplos, precio por automatización y preguntas frecuentes.
